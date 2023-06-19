@@ -19,9 +19,47 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 ## Aula 4
 
 1. Como é composta a estrutura de um documento HTML.
+   É composta por head e body. Dentro do body é possível usar main, footer e header.
 2. Detalhe as peculiaridades e funções de cada um dos elementos da estrutura de um documento HTML.
+   > O head é o espaço no qual são realizadas configurações da página como folha de estilo, javascript, titulo, modos de compatibilidade de navegadores e dispositivos;
+   > No body estão contidos o verdadeiro conteúdo da página web. Ele se subdivide em header, ou cabeçalho, comumente utilizado para títulos, barras de navegação ou outros elementos característicos de topos de páginas;
+   > é possível usar a divisão de main, na qual estará contido o conteúdo de fato da página. Textos, imagens, vídeos, todas as possibilidades;
+   > por fim, o footer
 3. Colocando os conhecimentos adquiridos em prática, crie e escreva à mão um documento HTML do zero com dois títulos.
 4. Explique o conceito de hierarquia na construção de páginas HTML. Dê exemplos.
+
+## AULA 9
+
+1. Para quê servem tags do tipo meta? Escreva o código HTML que engloba essas tags
+2. Escreva um título com os seguintes atributos de estilo inline no HTML: cor preta, fonte de 32 pixels e a fonte arial.
+3. Escreva uma tag de estilo com uma classe chamada txt-azul com a fonte Courier-new, courier, monospace, fonte de 18px e cor #3369ff e outra classe box com alinhamento de texto no centro, margin de 30px na disposição de tabela e largura e altura de 400x300 e fundo ff9966 e uma borda de 8px e uma sombra de caixa 4px 4px 12 px preta e atribuir à uma div.
+
+## AULA 10
+
+1. Qual a boa prática a ser seguida no que tange a escrita de atributos no CSS? Dê um exemplo.
+2. Escreva como é atribuido um arquivo CSS a uma página html para um arquivo local e para um arquivo externo.
+3. Quando se escreve atributos de classe e tag que são atribuídas ao mesmo elemento, qual deles exerce prioridade? A ordem interfere no resultado? E no caso de atributos diferentes para a mesma tag, que resultado será exibido?
+
+## AULA 11 - Tipografia na web
+
+1. O que são web safe fonts? Cite ao menos 2 delas.
+2. Quais são e quais as características das categorias de fontes.
+3. Como um desenvolvedor deve pensar quanto à escolha da fonte que será utilizada no seu projeto?
+4. Cite os 6 sites de fontes disponíveis para desenvolvedores e as utilidades de cada um.
+
+## AULA 12 - Cores na Web
+
+1. Quais 3 as maneiras de se escrever códigos de cores? Exemplifique.
+2. Páginas web possuem a totalidade de cores disponiveis? Qual a recomendação de boa prática na escolha da palheta do projeto?
+
+## AULA 13 - CCS 1
+
+1. Escreva uma página html com um css atribuído;
+   1.1. A cor da página deve ser f2f4f5;
+   1.2. Deve haver um banner com largura e altura 1366px x 60px, cor 9013fe.
+   1.3. Como fazer para o elemento se tornar dinâmico independentemente do dispositivo de exibição;
+   1.4 Deve haver uma caixa que englobará os outros elementos e ela deve ser 1000x800 cor #ffffff (simpllifique), borda de 8px, e deve ser centralizada, com sombra nela e no banner do topo.
+2. O que é o padding, border e a margin e como esses elementos atuam numa página html e como manipulá-los;
 
 ## AULA 14
 
