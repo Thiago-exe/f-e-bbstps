@@ -160,3 +160,46 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 
 1. Explique o que são design patterns destacando sua significância nas diferentes áreas da tecnologia da informação.
 2. Descreva a design pattern do Atomic Design detalhando cada componente das páginas web representadas por esse paradigma.
+
+## AULA 20
+
+1. Crie uma página html com css ligado, o fundo da pagina da cor #f2f4f5, sem margem, e uma caixa de conteúdo principal com altura dinamica e margem superior de 100 pixels, margem inferior de 0 margem e centralizado.
+2. Crie um contâiner para conter uma foto, um título e opcionalmente um botão verde com letra em branco, ou uma imagem de gato, titulo roxo, texto preto e botão verde em cor branca;
+3. Faça uso de classes e seletores para fazer com que o container tenha essa flexibilidade de poissibilidades.
+
+## AULA 27
+
+1. Cite e descreva os 5 tipos de layouts de páginas web fazendo comparações entre os mesmos.
+2. Cite exemplos de efeitos que caracterizam um layout material.
+
+## AULA 28
+
+1. Explique o que é Media Query.
+2. Descreva como é o formato de um Media Query e como se baseia o seu funcionamento.
+
+## AULA 29
+
+1. Crie uma página html e uma folha de estilo com um título "Eu Sou Front End Designer"
+2. Na folha de estilo faça a página sem margens com a cor de fundo f2f5f7, com uma classe mybox com metade do comprimento, altura de 400 pixels, cor de fundo roxa e 60px de margem superior e centralizada com o texto dentro dela e alinhado no centro, com espaçamento do texto interno de 30px.
+3. escreva um media query para telas com 540 pixels de largura mínima com as características anteriores e descreva o que acontece.
+4. escreva um media query para telas com 320 pixels de largura minima trocando a box para cor amarela, largura de 90%, altura de 400px e demais caracteristicas iguais. O título deve ter fonte arial e cor azul.
+5. escreva outra media query para 1400 px com outras alterações.
+6. Realize a análise e refatoração do css avaliando repetição de código, mantendo ele o mais DRY possível.
+7. Como é possível realizar essa verificação pelo navegador?
+8. Como é possível visualizar a responsívidade do seu design em dispositivos populares como o iphone 6/7?
+
+## AULA 30
+1. Qual o nome do site utilizado para verificar a compatibilidade dos navegadores com elementos css, html e javascript?
+
+## AULA 31
+1. O que são sistemas de grid e o que eles fazem?
+2. Quais os beneficios do uso de um sistema de grids?
+3. Quais os 3 frameworks mais populares?
+4. Explique como funciona a divisão de grid nos frameworks de código css.
+5. Como utilizar o sistema de divisão de grid dos frameworks?
+6. Como funciona e qual o código para o controle de espaçamento e responsividade dos elementos nos sistemas de divisão de grid nos frameworks? Dê um exemplo explicativo.
+7. Qual o prefixo de classes para cada tamanho de tela?
+
+## AULA 32
+1. Baixe e utilize o bootstrap-grid.css em um novo documento html.
+2. crie uma caixa azul com 100px de altura sem bordas e margens para a caixa ocupar todo topo da tela.
