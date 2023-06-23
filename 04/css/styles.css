@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+}
+
+main{
+    width: 800px;
+    margin: 100px auto 0 auto;
+    display: table;
+    background-color: #f2f4f5;
+}
