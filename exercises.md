@@ -179,47 +179,69 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 ## AULA 27
 
 1. Cite e descreva os 5 tipos de layouts de páginas web fazendo comparações entre os mesmos.
-   Estático, os elementos não se readequam ao tamanho da tela se redimensionando automaticamente para garantir a visualização e usabilidade do usuário;
-   Fluído, os elementos se redimensionam a partir de porcentagem da tela, porém, sem considerar a resolução da tela do dispositivo;
+      > Design estático, fluído, responsivo, orgânico e material. No design estático não é realizada qualquer adaptação da página para o tamanho da tela ou resolução do dispositivo. No design flúido, há uma adaptação por meios de atributos de % para tornar os elementos proporcionais ao tamanho da tela do usuário. No design responsivo, o layout da página toma decisões de componentes e organização diferentes para cada resolução/tamanho de tela de dispositivo visando a melhor e mais satisfatória experiência do usuário. No design orgânico, os elementos da página são espalhados de forma arbitrária pelo espaço da página, sem se limitar a grades. Por fim, o design material preza por um design mais sofisticado, lançando mão de efeitos e ilusões de ótica para tornar a página mais moderna com efeitos como iluminação, brilho, movimento.
    
 2. Cite exemplos de efeitos que caracterizam um layout material.
-
+   > Movimento, sombra, brilho, efeitos de tridimensionalidade.
 ## AULA 28
 
 1. Explique o que é Media Query.
+   > Media Query é uma notação de documentos CSS na qual é possível controlar o comportamento do layout da página de acordo com definições de atribuições de condicionais de acordo com o dispositivo.
+
 2. Descreva como é o formato de um Media Query e como se baseia o seu funcionamento.
+   > `@media only sceen and (min-width: 554px)`. Assim que um dispositivo se encaixar no alcance abaixo de 555 pixels, as alterações de atributos escritas abaixo dessa definição serão aplicadas.
 
 ## AULA 29
 
 1. Crie uma página html e uma folha de estilo com um título "Eu Sou Front End Designer"
+   >check
 2. Na folha de estilo faça a página sem margens com a cor de fundo f2f5f7, com uma classe mybox com metade do comprimento, altura de 400 pixels, cor de fundo roxa e 60px de margem superior e centralizada com o texto dentro dela e alinhado no centro, com espaçamento do texto interno de 30px.
+   >check
 3. escreva um media query para telas com 540 pixels de largura mínima com as características anteriores e descreva o que acontece.
+   > Quando a resolução da tela chega a 540 pixels a página perde a formatação.
 4. escreva um media query para telas com 320 pixels de largura minima trocando a box para cor amarela, largura de 90%, altura de 400px e demais caracteristicas iguais. O título deve ter fonte arial e cor azul.
+   > check
 5. escreva outra media query para 1400 px com outras alterações.
+   > check
 6. Realize a análise e refatoração do css avaliando repetição de código, mantendo ele o mais DRY possível.
+   > check
 7. Como é possível realizar essa verificação pelo navegador?
+   > Utilizando a ferramenta de inspeção dos navegadores.
 8. Como é possível visualizar a responsívidade do seu design em dispositivos populares como o iphone 6/7?
+   > No topo do inspecionador de elementos, com o icone de dispositivos mobile, existem funcionalidades para simular a tela dos mais populares dispositivos.
 
 ## AULA 30
 
 1. Qual o nome do site utilizado para verificar a compatibilidade dos navegadores com elementos css, html e javascript?
+   >caniuse.com
 
 ## AULA 31
 
 1. O que são sistemas de grid e o que eles fazem?
+   > Sistemas de grid, ou sistemas de grades são coleções de código pronto de formas para auxiliar o desenvolvedor na organização dos elementos da página.
 2. Quais os beneficios do uso de um sistema de grids?
+   > Uma maior facilidade e agilidade de desenvolvimento na hora de organizar os componentes e montar o layout da página.
 3. Quais os 3 frameworks mais populares?
+   > bootstrap, foudation e materialize
 4. Explique como funciona a divisão de grid nos frameworks de código css.
+   > Funciona dividindo a pagina em 12 colunas mas é possivel dividir em mais ou menos colunas editando os documentos css. 
 5. Como utilizar o sistema de divisão de grid dos frameworks?
+   > Você precisa adicionar os documentos css prontos desses sistemas ou instalá-los automaticamente com algum documento de gerenciamento de pacote.
 6. Como funciona e qual o código para o controle de espaçamento e responsividade dos elementos nos sistemas de divisão de grid nos frameworks? Dê um exemplo explicativo.
+   > O controle de espaçamento é feito aplicado no código html como se fosse qualquer outro código css: por meio da aplicação de classes. Ex: `<div class="col-12">`. Segue da col-otamanhodaview-numerdecolunas.
 7. Qual o prefixo de classes para cada tamanho de tela?
+   > Se não colocar nada após o col é extra small <576, se colocar sm, é >=576, se md é >=768, lg >=992, xl >= 1200
 
 ## AULA 32
 
 1. Baixe e utilize o bootstrap-grid.css em um novo documento html.
+   > check
 2. crie uma caixa azul com 100px de altura sem bordas e margens para a caixa ocupar todo topo da tela.
+   > check
 3. Crie uma classe para div na caixa com cor yellowgreen, height 80px e margin-top 10px.
+   > check
 4. Crie 3 classes de divs e organize elas com categorias para cada tamanho de tela para que elas se organizem em colunas.
+
 
 ## AULA 34
 
