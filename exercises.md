@@ -241,56 +241,97 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 3. Crie uma classe para div na caixa com cor yellowgreen, height 80px e margin-top 10px.
    > check
 4. Crie 3 classes de divs e organize elas com categorias para cada tamanho de tela para que elas se organizem em colunas.
-
+   > check
 
 ## AULA 34
 
 1. Crie um documento html com 4 divs com um texto contendo o algarismo de 1 a 4, dentro de um conteiner.
+   > check
 2. Atribua a todas elas o display flex.
+   > check
 3. Quais são os 4 atributos de direção do flex-box?
+   > Os 4 atributos de flex-direction de flex-box são: row, row-reverse, column e column-reverse.
 
 ## AULA 35
 
 1. Crie mais duas divisões e rearranje as divisorias deixando espaços vagos nos 4 quadrantes.
+   >usando e permutando row/colum e row-reverse/column-reverse com flex-wrap wrap e flex-wrap wrap-reverse
 
 ## AULA 36
 
 1. Refaça a atividade anterior fazendo uso de flex-flow.
+   > flex-flow: wrap/wrap-reverse row/row-reverse
 2. Aplique a flexibilidade flex-start.
+   > justify-content: flex-start
 3. aplique a flexibilidade flex-end
+   > justify-content: flex-end
 4. centralize os elementos utilizando flex
+   > justify-content: center
 5. aplique o espaçamento igual enconstando nos cantos
+   > justify-content: space-around
 6. aplique o espaçamento igual incluindo as bordas.
+   > justify-content: space-evenly
 7. Agora altere os sentidos dos justify-contents para linhas e depois colunas.
+   > check basta usar a uniao de justify-content com flex-direction: row/column
 
 ## AULA 37
 
 1. Utilizando os elementos da AULA 35, faça com que os textos se alinhem no topo;
+   >check
 2. Faça com que os elementos se alinhem na base;
+   > align-items: flex-end
 3. Faça com que os elementos se alinhem no centro;
+   > align-items: center
 4. faça com que os elementos se estiquem para cobrir tudo.
-5. faça com que se alinhem com base no texto,
+   > align-items: stretch
+5. faça com que se alinhem com base no texto
+   > align-items: baseline, é mais eficiente quando se tem componentes de alturas diferentes.
 
 ## AULA 38
 
 1. Crie mais elementos para haver quebra de linha e faça com que eles se alinhem no topo e no fim, de forma que haja espaço entre eles.
+   > align content é melhor de ser usado quando existem muitos itens e quebras de linha.
 2. Agora os organize com espaço sem encostar nas bordas superiores e inferiores.
+   > align-content: space-around;
 3. Esticando para preencher o maximo possivel
+   >align-content: stretch
 4. centralizado
+   >align-content: center
 5, no fim e no topo do conteiner.
+   >align-content: space-between
 
 ## AULA 39
 
 1. Reordene os itens da flexbox em uma ordem aleatória.
+   > feito, se cria uma classe com o atributo order:1; e atribui ela aos componentes.
 
 ## AULA 40
 
 1. Aplique o crescimento nos conteineres utilizando flexbox.
+   > grow é feito como o order só que com flex-grow para deifnir a proporção de crescimento do componente.
 
 ## AULA 42 
 
 1. Faça experimentos com flex shorthand.
-
+   > 1 valor grow | shrink e basis
 ## AULA 43
 
-1. Faça com que apenas um dos itens tenha alinhamento diferente, pra cima, pra baixo, pro centro .
+1. Faça com que apenas um dos itens tenha alinhamento diferente, pra cima, pra baixo, pro centro.
+   >align-self: center, flex-start, flex-ent, auto, baseline
+
+## AULA 44
+
+1. Quais são os estágios para animar um elemento com css? Descreva cada um deles.
+2. Crie um main com 80% de comprimento, 800px de altura, fundo branco gelo f2f4f5, com altura que cresce correspondentemente e centralizado. Depois um bloco quadrado com 200x200 e cor azul.
+3. Escreva um keyframe de exemplo para mudar a cor de azul para vermelho e se metamorfosear para 400 x 100.
+4. Aplique a transição no quadrado com toda mudança de característica mutável de 3 segundos e com um começo lento.
+5. Cite todos os atributos possíveis para a transição.
+
+## AULA 45
+
+1. Cite todos os atributos possíveis de animação css.
+2. Aplique uma animação no quadrado azul que execute uma única vez.
+
+## AULA 46
+
+1. 
