@@ -179,13 +179,14 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 ## AULA 27
 
 1. Cite e descreva os 5 tipos de layouts de páginas web fazendo comparações entre os mesmos.
-      > Design estático, fluído, responsivo, orgânico e material. No design estático não é realizada qualquer adaptação da página para o tamanho da tela ou resolução do dispositivo. No design flúido, há uma adaptação por meios de atributos de % para tornar os elementos proporcionais ao tamanho da tela do usuário. No design responsivo, o layout da página toma decisões de componentes e organização diferentes para cada resolução/tamanho de tela de dispositivo visando a melhor e mais satisfatória experiência do usuário. No design orgânico, os elementos da página são espalhados de forma arbitrária pelo espaço da página, sem se limitar a grades. Por fim, o design material preza por um design mais sofisticado, lançando mão de efeitos e ilusões de ótica para tornar a página mais moderna com efeitos como iluminação, brilho, movimento.
-   
+   > Design estático, fluído, responsivo, orgânico e material. No design estático não é realizada qualquer adaptação da página para o tamanho da tela ou resolução do dispositivo. No design flúido, há uma adaptação por meios de atributos de % para tornar os elementos proporcionais ao tamanho da tela do usuário. No design responsivo, o layout da página toma decisões de componentes e organização diferentes para cada resolução/tamanho de tela de dispositivo visando a melhor e mais satisfatória experiência do usuário. No design orgânico, os elementos da página são espalhados de forma arbitrária pelo espaço da página, sem se limitar a grades. Por fim, o design material preza por um design mais sofisticado, lançando mão de efeitos e ilusões de ótica para tornar a página mais moderna com efeitos como iluminação, brilho, movimento.
 2. Cite exemplos de efeitos que caracterizam um layout material.
    > Movimento, sombra, brilho, efeitos de tridimensionalidade.
+
 ## AULA 28
 
 1. Explique o que é Media Query.
+
    > Media Query é uma notação de documentos CSS na qual é possível controlar o comportamento do layout da página de acordo com definições de atribuições de condicionais de acordo com o dispositivo.
 
 2. Descreva como é o formato de um Media Query e como se baseia o seu funcionamento.
@@ -194,9 +195,9 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 ## AULA 29
 
 1. Crie uma página html e uma folha de estilo com um título "Eu Sou Front End Designer"
-   >check
+   > check
 2. Na folha de estilo faça a página sem margens com a cor de fundo f2f5f7, com uma classe mybox com metade do comprimento, altura de 400 pixels, cor de fundo roxa e 60px de margem superior e centralizada com o texto dentro dela e alinhado no centro, com espaçamento do texto interno de 30px.
-   >check
+   > check
 3. escreva um media query para telas com 540 pixels de largura mínima com as características anteriores e descreva o que acontece.
    > Quando a resolução da tela chega a 540 pixels a página perde a formatação.
 4. escreva um media query para telas com 320 pixels de largura minima trocando a box para cor amarela, largura de 90%, altura de 400px e demais caracteristicas iguais. O título deve ter fonte arial e cor azul.
@@ -213,7 +214,7 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 ## AULA 30
 
 1. Qual o nome do site utilizado para verificar a compatibilidade dos navegadores com elementos css, html e javascript?
-   >caniuse.com
+   > caniuse.com
 
 ## AULA 31
 
@@ -224,7 +225,7 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 3. Quais os 3 frameworks mais populares?
    > bootstrap, foudation e materialize
 4. Explique como funciona a divisão de grid nos frameworks de código css.
-   > Funciona dividindo a pagina em 12 colunas mas é possivel dividir em mais ou menos colunas editando os documentos css. 
+   > Funciona dividindo a pagina em 12 colunas mas é possivel dividir em mais ou menos colunas editando os documentos css.
 5. Como utilizar o sistema de divisão de grid dos frameworks?
    > Você precisa adicionar os documentos css prontos desses sistemas ou instalá-los automaticamente com algum documento de gerenciamento de pacote.
 6. Como funciona e qual o código para o controle de espaçamento e responsividade dos elementos nos sistemas de divisão de grid nos frameworks? Dê um exemplo explicativo.
@@ -255,7 +256,7 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 ## AULA 35
 
 1. Crie mais duas divisões e rearranje as divisorias deixando espaços vagos nos 4 quadrantes.
-   >usando e permutando row/colum e row-reverse/column-reverse com flex-wrap wrap e flex-wrap wrap-reverse
+   > usando e permutando row/colum e row-reverse/column-reverse com flex-wrap wrap e flex-wrap wrap-reverse
 
 ## AULA 36
 
@@ -277,7 +278,7 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 ## AULA 37
 
 1. Utilizando os elementos da AULA 35, faça com que os textos se alinhem no topo;
-   >check
+   > check
 2. Faça com que os elementos se alinhem na base;
    > align-items: flex-end
 3. Faça com que os elementos se alinhem no centro;
@@ -294,11 +295,11 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 2. Agora os organize com espaço sem encostar nas bordas superiores e inferiores.
    > align-content: space-around;
 3. Esticando para preencher o maximo possivel
-   >align-content: stretch
+   > align-content: stretch
 4. centralizado
-   >align-content: center
-5, no fim e no topo do conteiner.
-   >align-content: space-between
+   > align-content: center
+   > 5, no fim e no topo do conteiner.
+   > align-content: space-between
 
 ## AULA 39
 
@@ -310,14 +311,15 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 1. Aplique o crescimento nos conteineres utilizando flexbox.
    > grow é feito como o order só que com flex-grow para deifnir a proporção de crescimento do componente.
 
-## AULA 42 
+## AULA 42
 
 1. Faça experimentos com flex shorthand.
    > 1 valor grow | shrink e basis
+
 ## AULA 43
 
 1. Faça com que apenas um dos itens tenha alinhamento diferente, pra cima, pra baixo, pro centro.
-   >align-self: center, flex-start, flex-ent, auto, baseline
+   > align-self: center, flex-start, flex-ent, auto, baseline
 
 ## AULA 44
 
@@ -334,4 +336,85 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 
 ## AULA 46
 
-1. 
+1. Aplique uma animação infinita no quadrado anterior.
+
+## AULA 47
+
+1. Faça com que o quadrado se movimente 300 x 300 com 30% do tempo e retorne até o ponto 0.
+2. Agora faça com que em 70% do tempo o objeto se mova para o ponto 0, se torne uma esfera de raio 100, rotacione 0 graus e no final se tornara um quadrado de 200x200 em 800x600 rotacionará 360 graus.
+3. Cite exemplos do uso prático de animações.
+
+## AULA 48
+
+1. O que são e quais são os vendor-prefixes? Cite exemplos.
+2. Crie um novo documento html + css e escreva uma animação para botão com 0% 50% e 100% de progressão. O botão deverá possuir as proporções 200x64 em bloco, bordas arredondadas, com borda azul, centralizado e com margem de 100 pixels, o texto deverá ser arial, alinhado no centro, com altura de 64 pixels, sem decoração e na cor #ff0099.
+3. O estado inicial da animação manterá as proporções padrões, no intermediário o comprimento diminuira 20 pixels, ele se arredondará mais 4 pixels. No estado final ele deverá voltar pro tamanho inicial e se tornar azul. O botão só deve tornar-se azul no fim da animação. No final a cor do texto do botão deverá se tornar branco.
+4. A animação deve acontecer quando o usuário colocar o mouse em cima do botão.
+
+## AULA 49
+
+1. Ao colocar o mouse em cima do botão ele deve exibir uma sombra simulando uma tridimensionalidade.
+
+## AULA 51
+
+1. Baixe e utilize o Animate.css no documento anterior.
+2. Aplique pelo menos 10 animações diferentes em um texto.
+
+## AULA 52
+
+1. Quais são as etapas de criar, exportar e animar um SVG.
+
+## AULA 53
+
+1. Crie e exiba o svg padrão num documento html.
+
+## AULA 54
+
+1. Como funciona a lógica da geração de documentos svg a partir dos aplicativos de ilustração?
+2. O que a opção de exportação 'responsivo' é capaz de alterar no documento caso seja marcada?
+3. Exemplifique o significado de alguns dos campos do documento gerado.
+
+## AULA 55
+
+1. Explique a primeira forma de se inserir um svg no html e quais as implicações referentes a transformações e animações.
+2. Realize a primeira forma.
+
+## AULA 56
+
+1. Explique a segunda forma de inserir svg no html e quais as implicações.
+2. Explique qual o bom principio em lidar com muitos documentos svg em um projeto.
+3. Realize a segunda adição de arquivo svg no html com um documento css diferente.
+4. Explique a terceira forma e por que ela não é uma boa prática de programação.
+
+## AULA 57
+
+1. faça as questões da aula 57 (tava doente e sem energia)
+
+## AULA 58
+
+1. Faça uma animação para o simbolo da adidas parecer estar sendo desenhado aos poucos.
+2. Agora faça as formas sendo preenchidas com uma cor da sua preferência.
+
+## AULA 59
+
+1. Explique o que é javascript e qual propósito a linguagem foi criada para suprir.
+
+## AULA 60
+
+1. Cite quais são as etapas de exibição de uma página web no client side.
+2. Por que o javascript é o último a ser executado?
+3. Explique qual é o processo para visualizar o carregamento dos documentos de uma pagina web.
+4. Explique como é possível o javascript ser carregado antes da última etapa.
+5. Por que é relevante analisar o carregamento da sua página web? Por que um elemento não está sendo carregado?
+
+## AULA 61
+
+1. Explique qual a importãncia do console e qual a sua utilidade.
+
+## AULA 62
+
+1. O que é API e como se apresenta a API do javascript?
+
+## AUAL 63
+
+1. Explique o que é o objeto window e como visualizá-lo.
