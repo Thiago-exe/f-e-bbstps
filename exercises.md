@@ -415,6 +415,39 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 
 1. O que é API e como se apresenta a API do javascript?
 
-## AUAL 63
+## AULA 63
 
 1. Explique o que é o objeto window e como visualizá-lo.
+
+
+## AULA 64
+
+1. O que são primitivas no javascript?
+2. Quais são os tipos primitivos do javascript?
+3. Explique a diferença entre uma variável null e undefined
+
+## AULA 65
+
+1. Explique quais são e quais as diferenças entre as 3 formas de declarar variáveis no javascript.
+2. Explique qual a forma de escrever javascript dentro de um documento html.
+3. Crie três variáveis em um documento html e as exiba no console do navegador.
+4. Explique qual a habilidade especial das duas formas de declaração de variáveis.
+
+## AULA 66
+
+1. Explique as diferenças de sintaxe em comparar dados e comparar tipos e dados.
+
+## AULA 67
+
+1. Quais são as duas formas de selecionar um elemento individualmente? Cite exemplos.
+2. Qual a utilidade de seletores em javascript?
+3. Quais são as duas formas de selecionar grupos de elementos? Cite exemplos.
+4. escreva uma página com botões centralizados espaçados igualmente em coluna com os nomes azul 1 azul 2 azul 3 vermelho 1 vermelho 2 e vermelho 3. Selecione um único item azul e exiba-o no console do navegador
+5. Selecione todos os itens vermelhos e exiba-os no console do navegador.
+
+## AULA 68
+
+1. Crie 2 botões dentro de 300x50 centralizado e com 15 pixels de distancia dos itens acima dele, os botões devem ter metade do comprimento do conteiner e 40 pixels de altura. O botão da esquerda terá o nome azul e o da direita vermelho.
+2. Faça com que todos os itens azul ficarem azuis quando o botão Azul for pressionado.
+3. Faça o fundo ficar azul ou vermelho assim como os botões.
+4. Agora faça os itens adjacentes sumirem após o azul ou vermelho ser aplicado.
