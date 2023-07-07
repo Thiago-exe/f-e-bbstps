@@ -419,7 +419,6 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 
 1. Explique o que é o objeto window e como visualizá-lo.
 
-
 ## AULA 64
 
 1. O que são primitivas no javascript?
@@ -451,3 +450,42 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 2. Faça com que todos os itens azul ficarem azuis quando o botão Azul for pressionado.
 3. Faça o fundo ficar azul ou vermelho assim como os botões.
 4. Agora faça os itens adjacentes sumirem após o azul ou vermelho ser aplicado.
+
+## AULA 69 /70
+
+1. Crie uma página com um conteiner que contém espaços para nome e email, dentro desses conteineres deve ter escrito Seu nome e Seu email para orientar o usuario. O conteiner é roxo e abaixo dele existe um botao de mesma largura na cor ciano com um texto em roxo "VALIDAR".
+2. Copie o regex do documento e faça com que o botão valide as entradas do usuário nos espaços em branco exibindo o resultado no console do navegador:
+
+   a)valide se os espaços estão vazios<br>
+   b) valide se o nome tem pelo menos 3 caracteres<br>
+   c) valide se email é válido segundo o regex
+
+3. Exiba os erros e sucessos dentro de uma tag de span no html.
+
+## AULA 71
+
+1. Altere o exercício anterior para funcionar com switch case.
+
+## AULA 72
+
+1. Explique o que são eventos em Javascript
+2. O que significa DOM?
+3. Cite todos os 14 eventos de mouse em javascript descrevendo a utilizade de cada um.
+4. Qual a sintaxe para descrever um evento em javascript? Exemplifique.
+5. Crie um documento html com 4 retângulos roxos escrito "Codesigners!" na vertical centralizadas com fonte de cor ciano.
+6. Qual o método do javascript para exibir eventos?
+7. Faça com que quando o usuário clicar todas as caixas fiquem pretas.
+8. Agora faça com que eles fiquem pretos quando o mouse está posicionado acima.
+9. Por que devemos ter cuidado com o evento de scroll?
+10. Por que é mais recomendável a utilização de bibliotecas para o evento de scroll?
+
+## AULA 73
+
+1. O que são funções em javascript?
+2. Utilizando um documento html com uma caixa, escreva uma função para receber 3 parametros e calcular a soma dos 3 e exibir dentro da caixa anterior.
+
+## AULA 74
+
+1. Vá na documentação do develloper mozilla javascript e execute todos os exemplos de array.
+2. Qual o desafio no momento de exibir um array com uma lista de frutas para ser exibido como uma UL no html?
+3. Realize a tarefa sugerida na 2º questão.
