@@ -324,15 +324,18 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 ## AULA 44
 
 1. Quais são os estágios para animar um elemento com css? Descreva cada um deles.
-2. Crie um main com 80% de comprimento, 800px de altura, fundo branco gelo f2f4f5, com altura que cresce correspondentemente e centralizado. Depois um bloco quadrado com 200x200 e cor azul.
-3. Escreva um keyframe de exemplo para mudar a cor de azul para vermelho e se metamorfosear para 400 x 100.
-4. Aplique a transição no quadrado com toda mudança de característica mutável de 3 segundos e com um começo lento.
-5. Cite todos os atributos possíveis para a transição.
+   > keyframe: são os endpoints das animações; transform: usa as propriedades transform 2d e 3d; transition: suaviza as mudanças das animações; animation: animação atribuída ao componente; javascript: determina o comportamento.
 
 ## AULA 45
 
-1. Cite todos os atributos possíveis de animação css.
-2. Aplique uma animação no quadrado azul que execute uma única vez.
+1. Crie um main com 80% de comprimento, 800px de altura, fundo branco gelo f2f4f5, com altura que cresce correspondentemente e centralizado. Depois um bloco quadrado com 200x200 e cor azul.
+   > check
+2. Escreva um keyframe de exemplo para mudar a cor de azul para vermelho e se metamorfosear para 400 x 100.
+
+3. Aplique a transição no quadrado com toda mudança de característica mutável de 3 segundos e com um começo lento.
+4. Cite todos os atributos possíveis para a transição.
+5. Cite todos os atributos possíveis de animação css.
+6. Aplique uma animação no quadrado azul que execute uma única vez.
 
 ## AULA 46
 
@@ -489,3 +492,70 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 1. Vá na documentação do develloper mozilla javascript e execute todos os exemplos de array.
 2. Qual o desafio no momento de exibir um array com uma lista de frutas para ser exibido como uma UL no html?
 3. Realize a tarefa sugerida na 2º questão.
+
+## AULA 75
+
+1. Crie um código javascript que com uma lista de frutas, ele adiciona tags para listar no código html.
+2. Qual o método para adicionar tags html em um texto em javascript?
+
+## AULA 76
+
+1. Qual é a sintaxe para declarar um objeto em javascript? Exemplifique.
+2. Qual o intuito de trabalhar com objetos em javascript?
+3. Crie uma pagina html com um conteiner branco com uma imagem de "encontre um gatinho famoso na web", com titulo nome do gatinho, descrição do gatinho menor embaixo, um campo para o usuario escrever o nome do gatinho e um botão buscar.
+
+## AULA 77
+
+1. Crie um arquivo javascript com as strings da api de gatos e adicione na pagina html.
+2. Faça com que o javascript reconheça o valor do input field digitado.
+3. Explique como pegar o valor do campo input text.
+4. Faça uma função para checar se existe um gato com esse nome na coleção de objetos.
+5. Escreva uma função getGato ao clicar no botão.
+6. Por que aparece um valor no console depois de um loop?
+
+## AULA 78
+
+1. Exiba o nome, descrição, imagem do gato e instagram do gato.
+
+## AULA 79
+
+1. Qual a sintaxe de um loop for em javascript?
+2. Qual a sintaxe de um for in em javascript?
+3. Escreva um for in para um array e um for in para um hash chave-valor em javascript.
+4. Qual a sintaxe de um while em javascript?
+5. Qual a sintaxe de um map em javascript?
+6. Escreva um exemplo de cada um dos loops.
+7. Como utilizar o map para iterar sobre objetos?
+8. O que é a regra de Paretto?
+
+## AULA 81
+
+1. Quais os motivos pelos quais o JQuery está sendo abandonado?
+2. Por qual motivo é interessante utilizar javascript puro em detrimento do JQuery?
+
+## AULA 82
+
+1. O que é o JQuery?
+2. O que é um CDN? Para quê serve?
+3. Quais as vantagens de fazer uso de uma hosted library?
+4. Instale o JQuery no documento html dos gatos.
+
+## AULA 83
+
+1. Voltando ao projeto das cores, faça a alteração para os blocos ficarem azuis utilizando jquery.
+2. Faça com que apenas o ultimo item seja azul.
+3. Faça a mesma coisa com os itens vermelhos.
+
+## AULA 84 e 85
+
+1. O que é o document ready do jquery? Descreva como exemplo.
+2. Refaça as atividades do gato dessa vez no jquery.
+
+## AULA 86
+
+1. Caso um css no html e um css em arquivo externo alterem o mesmo componente, quem tem prioridade?
+2. Como lidar com a ordem de prioridades do css?
+3. Como fazer para desfazer as alterações no jquery?
+4. Como adicionar classes em componentes no jquery?
+5. Como fazer para aplicar ou desaplicar no jquery?
+6. Faça o toggle ser aplicado com o mouse em cima do botão.
