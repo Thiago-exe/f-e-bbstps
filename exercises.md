@@ -331,28 +331,44 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 1. Crie um main com 80% de comprimento, 800px de altura, fundo branco gelo f2f4f5, com altura que cresce correspondentemente e centralizado. Depois um bloco quadrado com 200x200 e cor azul.
    > check
 2. Escreva um keyframe de exemplo para mudar a cor de azul para vermelho e se metamorfosear para 400 x 100.
-
+   > check
 3. Aplique a transição no quadrado com toda mudança de característica mutável de 3 segundos e com um começo lento.
-4. Cite todos os atributos possíveis para a transição.
+   > check
+4. Cite todos os atributos possíveis para a transição e o que torna cada um especial.
+   > ease: a animação terá uma transição de inicio lento, depois rapido e final lento ; linear: mesma velocidade sempre ; ease-in: inicio lento ; ease-out: final lento ; ease-in-out: inicio e final lentos e cubic-bezier: voce define os valores
 5. Cite todos os atributos possíveis de animação css.
+   > name: nome do keyframe que você quer atribuir ao seletor ; delay: quanto tempo demora para a animação começar ; duration: duração da animação; timing-function: define a curva de velocidade da animação ; iteration-count : define o numero de vezes que a animação deve ser ativada ; direction : define o sentido, se ela deve ser revertida ou não; fill-mode: especifica quais valores são aplicados para a animação fora do tempo que está executando; play-state: especifica se a animação está pausada ou deve ser executada; initial : coloca o animation no valor padrão ; inherit: herda as propriedades do elemento pai
 6. Aplique uma animação no quadrado azul que execute uma única vez.
-
+   > fowards aplica o play state uma unica vez, poderia ser infinite e a animação prosseguiria infinitamente. Check.
 ## AULA 46
 
 1. Aplique uma animação infinita no quadrado anterior.
+   > Check. Para fazer com que multiplas alterações sejam feitas em uma única animação, é possível que de from para to seja substituido por porcentagens fazendo com que o progresso da animação aconteça conforme definido.
 
 ## AULA 47
 
 1. Faça com que o quadrado se movimente 300 x 300 com 30% do tempo e retorne até o ponto 0.
+   > Check. A melhor forma de fazer isso é tornando os pontos dos keyframes nas porcentagens do processo.
 2. Agora faça com que em 70% do tempo o objeto se mova para o ponto 0, se torne uma esfera de raio 100, rotacione 0 graus e no final se tornara um quadrado de 200x200 em 800x600 rotacionará 360 graus.
+   > O atributo transform permite que os elementos recebam movimentações, podemos usar translateX, translate, translateY, rotate com um valor em deg
 3. Cite exemplos do uso prático de animações.
+   > Podemos fazer animações para chamar a atenção do usuário para algum elemento ou região da página, por efeitos estéticos, 
+4. Como fazer para arredondar um quadrado?
+   > Utilizando border radius com porcentagem, isso significa que cada angulo é arredondado
+5. Explique como as modificações não declaradas anteriormente em um keyframe podem afetar as posteriores.
+   > Quando se faz uma alteração em um ponto da animação e não é explicitado o comportamento do atributo durante a animação, ela será aplicada e do início até o fim devido o comportamento 
+6. Considerando a resposta anterior, qual a boa prática ao se escrever animações?
+   > Declarar explicitamente qual valor esse atributo receberá durante todo percursso da animação
 
 ## AULA 48
 
 1. O que são e quais são os vendor-prefixes? Cite exemplos.
+   > Vendor-prefixes são atributos de compatibilidade das animações com versões e modelos diferentes de navegadores. Um exemplo é o atributo -moz-transform -webkit-transform, -ms-tranform. 
 2. Crie um novo documento html + css e escreva uma animação para botão com 0% 50% e 100% de progressão. O botão deverá possuir as proporções 200x64 em bloco, bordas arredondadas, com borda azul, centralizado e com margem de 100 pixels, o texto deverá ser arial, alinhado no centro, com altura de 64 pixels, sem decoração e na cor #ff0099.
+   > check
 3. O estado inicial da animação manterá as proporções padrões, no intermediário o comprimento diminuira 20 pixels, ele se arredondará mais 4 pixels. No estado final ele deverá voltar pro tamanho inicial e se tornar azul. O botão só deve tornar-se azul no fim da animação. No final a cor do texto do botão deverá se tornar branco.
 4. A animação deve acontecer quando o usuário colocar o mouse em cima do botão.
+5. Como criar um botão apenas decorativo no html?
 
 ## AULA 49
 
