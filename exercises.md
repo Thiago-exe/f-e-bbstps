@@ -68,7 +68,7 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 2. Quais são e quais as características das categorias de fontes.
    > Sans Serif, Serif, Monospace e Cursive. As sans serif não possuem serifa, que são pequenas saliências nas extremidades dos caracteres, as serif possuem, as monospace possuem o mesmo tamanho e comprimento independentemente do caractere e as cursive imitam a escrita à mão.
 3. Como um desenvolvedor deve pensar quanto à escolha da fonte que será utilizada no seu projeto?
-   > O devenvolvedor deve escolher tendo em mente critérios como acessibilidade, fontes com serifa podem dificultar a leitura para deficientes visuais com miopia ou baixo grau de cegueira; o contexto, o público alvo, o design da página.
+   > O desenvolvedor deve escolher tendo em mente critérios como acessibilidade, fontes com serifa podem dificultar a leitura para deficientes visuais com miopia ou baixo grau de cegueira; o contexto, o público alvo, o design da página.
 4. Cite os 6 sites de fontes disponíveis para desenvolvedores e as utilidades de cada um.
    > google fonts, dafont, fontsquirrel, adobe fonts, font pair e a falecida typekit que foi absorvida pela adobe.
 
@@ -94,7 +94,7 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
    > check all
 
 2. O que é o padding, border e a margin e como esses elementos atuam numa página html e como manipulá-los;
-   > padding é a distância do conteúdo interno do elemento até as suas bordas, border é o tamanho das bordas do elemento e margin é a distância desse elemento para os elementos adjacentes a ele. Podemos manipular com padding, padding-left, padding-right, =-bottom e =-top, border com border-style, border-radius, width e border-color, margin igal a padding.
+   > padding é a distância do conteúdo interno do elemento até as suas bordas, border é o tamanho das bordas do elemento e margin é a distância desse elemento para os elementos adjacentes a ele. Podemos manipular com padding, padding-left, padding-right, =-bottom e =-top, border com border-style, border-radius, width e border-color, margin igual a padding.
 
 ## AULA 14
 
@@ -365,23 +365,34 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 1. O que são e quais são os vendor-prefixes? Cite exemplos.
    > Vendor-prefixes são atributos de compatibilidade das animações com versões e modelos diferentes de navegadores. Um exemplo é o atributo -moz-transform -webkit-transform, -ms-tranform. 
 2. Crie um novo documento html + css e escreva uma animação para botão com 0% 50% e 100% de progressão. O botão deverá possuir as proporções 200x64 em bloco, bordas arredondadas, com borda azul, centralizado e com margem de 100 pixels, o texto deverá ser arial, alinhado no centro, com altura de 64 pixels, sem decoração e na cor #ff0099.
-   > check
+   > check text-decoration tira 
 3. O estado inicial da animação manterá as proporções padrões, no intermediário o comprimento diminuira 20 pixels, ele se arredondará mais 4 pixels. No estado final ele deverá voltar pro tamanho inicial e se tornar azul. O botão só deve tornar-se azul no fim da animação. No final a cor do texto do botão deverá se tornar branco.
+   > Check, para manter o botão sem cor há o atributo transparent, que é o equivalente a não existir background color. border-radius arredonda a borda, font-weight define a força da letra. transition precisa define o tempo até a transformação, e quando ela deve ficar mais lenta. line-height define a altura do texto.
 4. A animação deve acontecer quando o usuário colocar o mouse em cima do botão.
+   > você pega a animação e cria uma clase ':hover' 
 5. Como criar um botão apenas decorativo no html?
+   > usando a tag a e href='#' com a classe btn
+6. Adicione uma sombra ao botão com 8x8 sem transparência e a cor rosa.
+   > Utilizando a tag box-shadow é possível, fica até um efeito bonitinho 
 
 ## AULA 49
 
 1. Ao colocar o mouse em cima do botão ele deve exibir uma sombra simulando uma tridimensionalidade.
+ > Check, utilizando animation:hover e box-shadow.
 
 ## AULA 51
 
-1. Baixe e utilize o Animate.css no documento anterior.
+1. Baixe e utilize o Animate.css.
+   > Check!
 2. Aplique pelo menos 10 animações diferentes em um texto.
+   > Check!
 
 ## AULA 52
 
 1. Quais são as etapas de criar, exportar e animar um SVG.
+   > Primeiramente se cria o svg em uma aplicação de imagens vetoriais ou se cria ela a partir de código. Depois se exporta a imagem criada  e por fim se anima ela.
+2. Quais são as vantagens do modelo SVG?
+   > Ele é aberto e gratuito para uso, as imagens vetoriais são escaláveis sem perder a qualidade ou pixelizar e pode ser animado via código. 
 
 ## AULA 53
 
