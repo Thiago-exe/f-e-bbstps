@@ -1,6 +1,7 @@
 Curso disponível em: https://www.youtube.com/playlist?list=PLjS7DS1TxzJIkIgR8AR6Lu0deOOs0AQuv
 
 E se eu fizer esses exercicios em formato de site?
+pixabay
 
 1. What CDN stands for?
 2. Quais as vantagens de um CDN sobre o arquivo na aplicação?
@@ -16,7 +17,7 @@ Aula 2
 Aula 3
 
 1. Qual espaço uma linha do grid bootstrap ocupa?
-2. Quantas colunas o bootstrap aceita e
+2. Quantas colunas o bootstrap aceita e qual o comportamento quando esse valor máximo é extrapolado?
 
 Aula 4
 
@@ -114,6 +115,7 @@ Aula 15
 Aula 16
 1. Implemente um navbar
 2. Quais são os elementos que compoem uma navbar?
+3. o que significa a tag span?
 
 Aula 17
 1 Crie uma landing page com as seguintes especificações:
@@ -121,4 +123,6 @@ Aula 17
 + Faça uso de ícones
 + Imagem chamativa grande com um CA e um pequeno texto
 + 3 topicos separados apresentando características do negócio.
- 
+
+![Minimo](image.png)
+![Ideal](image-1.png)
