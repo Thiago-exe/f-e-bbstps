@@ -586,3 +586,43 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 4. Como adicionar classes em componentes no jquery?
 5. Como fazer para aplicar ou desaplicar no jquery?
 6. Faça o toggle ser aplicado com o mouse em cima do botão.
+
+
+
+# Course description: https://www.youtube.com/watch?v=gSBL0ILPUEM&list=PLnDvRpP8Bnexu5wvxogy6N49_S5Xk8Cze&index=4
+
+Aprenda boostrap
+
+## Pelos números
+
+### Nível de experiência: Todos os níveis
+
+### Idiomas: Português
+
+### Aulas: 
+
+### Vídeo:  horas no total
+
+## AULA 02
+
+1. Crie um arquivo html, css e js com integração do bootstrap e realize um teste que prove a funcionalidade de cada um.
+2. Baixe a coleção de imagens do repositório do github do curso_bootstrap em https://github.com/matheusbattisti/
+3. qual o problema da versão slim do jquery?
+4. baixe a progressbar do kimmobrunfeldt
+5. baixe e installe a biblioteca do parallax
+6. baixe e instale a coleção de fontes do google
+
+## AULA 03
+1. Inicialize uma navbar
+2. Qual a tag do bootstrap para fixar a barra no topo e extendê-la por toda width?
+3. Tag para adicionar um logo e coloque um nome e um valor para os robôs de leitura de tela.
+4. um botão para o menu de hamburguer com atributos para colapsar, ter um data-target e aria controls e aria-expanded false e label toggle navigation com um icone de buguer menu.
+5. ![Alt text](image.png) estilize ate tornar a barra assim.
+
+## AULA 04
+1. qual a diferença entre container fluid e container
+2. adicione um slider na pagina
+ 
+## AULA 05
+1. ![Alt text](image-1.png) reproduza
+
