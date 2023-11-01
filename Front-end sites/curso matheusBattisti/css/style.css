@@ -1,51 +1,65 @@
-/* Navbar da página */
-body{
+/* Gerais */
+body {
     font-family: 'Roboto', sans-serif;
-}
-
-.row{
+  }
+  
+  .row {
     margin: 0;
-}
-
-.container{
+  }
+  
+  .container {
     padding: 70px 0;
-}
-
-p,li{
+  }
+  
+  p, li {
     color: #444;
-    font-size: 16px;
-}
-
-header, .navbar{
-    background-color: #353d41;
-}
-
-.nav-item, .nav-link {
-    color: #fff;
-}
-
-.nav-container {
+    font-size: 14px;
+  }
+  
+  /* Barra de navegação */
+  header, .navbar {
+    background-color: #353D41;
+  }
+  
+  #nav-container {
     padding-top: 0;
     padding-bottom: 0;
-}
-
-#logo {
+  }
+  
+  #logo {
     width: 75px;
-}
-
-.navbar-brand{
+  }
+  
+  .navbar-brand {
     padding: 0;
-    color: #fff;
+    margin: 0 16px;
+    color: #FFF;
+  }
+  
+  .navbar-brand:hover {
+    color: #FFF;
+  }
+  
+  #navbar-links a {
+    color: #FFF;
+  }
+  
+
+
+  .nav-link {
+    margin: 1rem .8rem;
+  }
+  
+  .nav-item.active {
+    border-bottom: 3px solid #FFF;
+  }
+
+/* Slider */
+
+.container-fluid {
+    padding: 0;
 }
 
-.navbar-brand:hover{
-    color: #fff;
-}
-
-#navbar-links a {
-    color: #fff;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link{
-    padding: 1rem .8rem;
+#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item{
+    height: 50vh;
 }
