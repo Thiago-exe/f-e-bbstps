@@ -1,54 +1,80 @@
-@keyframes boxAnim {
-  0% {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-  }
-  30%{
-    width: 300px;
-    height: 300px;
-    transform: translate(300px, 300px);
-  }
-  50% {
-    background-color: red;
-    width: 400px;
-    height: 100px;
-  }
-  100% {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-    transform: translate(0px,0px);
-  }
+:root{
+  --box-size: 150px;
 }
 
-body {
+@keyframes eacaixas 
+ {
+  0%{
+    content: attr("Sou uma caixa");
+    width: var(--box-size);
+    height: var(--box-size);
+    border-radius: 0px;
+    transform: translate(50vw,50vh) rotate(360deg);
+  }
+  20%
+  {
+
+    content:attr("Sou uma bola");
+    width: 400px;
+    height: 400px;
+    border-radius: 360px;
+    transform: translate(50vw,-50vh) rotate(360deg);
+  }
+  40%{
+    content: attr("Sou uma caixa");
+    width: var(--box-size);
+    height: var(--box-size);
+    border-radius: 0px;
+    transform: translate(-50vw,-50vh);
+  }
+
+  60%{
+    content: attr("Sou uma bola");
+    width: 400px;
+    height: 400px;
+    border-radius: 360px;
+    transform: translate(-50vw,50vh) rotate(-360deg);
+  }
+
+  100%{
+    content: attr("Sou uma caixa");
+    width: var(--box-size);
+    height: var(--box-size);
+    border-radius: 0px;
+    transform: translate(50vw,50vh);
+  }
+
+}
+
+body{
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #010;
 }
 
-main {
-  width: 80%;
-  height: 800px;
-  background-color: #f2f4f5;
-  display: table; 
-  margin: 100px auto;
-}
-
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
+.galpao{
   display: flex;
-  margin: 20px auto;
+  width: 100vw;
+  height:100vh;
   align-items: center;
+  flex-flow: row wrap;
   justify-content: center;
-  transition: all 3s ease-in;
-  color: #f2f4f5;
-  animation: boxAnim 3s infinite;
 }
 
-.box .h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
+
+.box{
+  display: flex;
+  width: var(--box-size);
+  height: var(--box-size);
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  transition: all 2s ease-in;
+  animation: eacaixas 10s infinite;
+}
+
+.box > h1{
+  color: #fafafa;
+  font-size: 24px;
 }
