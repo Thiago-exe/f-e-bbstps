@@ -1,53 +1,37 @@
-@keyframes butaun {
-  0% {
-    width: 200px;
-    height: 64px;
-    display: block;
-    border-radius: 4px;
-    background-color: transparent;
-    color: #ff0099;
+@keyframes drawing {
+  0%{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
   }
-  50% {
-    width: 180px;
-    height: 64px;
-    display: block;
-    border-radius: 8px;
-    background-color: transparent;
-    color: #ff0099;
-  }
-  100% {
-    width: 200px;
-    height: 64px;
-    display: block;
-    background-color: blue;
-    color: #fff;
+  100%{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
   }
 }
 
-body {
+
+body{
   margin: 0;
   padding: 0;
-  background-color: #f2f4f5;
+  background-color: #101;
 }
 
-.btn {
-  width: 200px;
-  height: 64px;
+
+.st0{
+  stroke: aliceblue;
+  fill: none;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+  animation: drawing 10s linear forwards;
+}
+
+object{
   display: block;
-  border-radius: 8px;
-  border: 2px solid blue;
-  margin: 100px auto;
-  text-align: center;
-  line-height: 64px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  font-weight: bold;
-  background-color: #fff;
-  color: #ff0099;
-  transition: all 0.3s ease-out;
+  margin: 0 auto;
 }
 
-.btn:hover{
-  animation: butaun 0.3s forwards;
-  box-shadow: 8px 8px 0 #ff0099;
+img{
+  display: block;
+  width: 80%;
+  margin: auto auto;
 }
