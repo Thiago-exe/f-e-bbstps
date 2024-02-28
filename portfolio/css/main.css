@@ -16,6 +16,32 @@ p {
   }
 }
 
+@keyframes lineDown {
+  0% {
+    transform: scale(1, 0);
+    transform-origin: top center;
+  }
+  25% {
+    transform: scale(1, 1);
+    transform-origin: top center;
+  }
+  75% {
+    transform: scale(1, 1);
+    transform-origin: top center;
+  }
+  76% {
+    transform: scale(1, 1);
+    transform-origin: bottom center;
+  }
+  100% {
+    transform: scale(1, 0);
+    transform-origin: bottom center;
+  }
+}
+
+@keyframes arrowDown {
+}
+
 @media screen and (max-width: 576px) {
   .jl-page-wrapper {
     width: 100%;
@@ -57,6 +83,7 @@ p {
   .jl-preloader {
     width: 100%;
     height: 100vh;
+    display: table;
     background-color: #1c1c1c;
     border: 30px solid #000;
   }
@@ -184,6 +211,69 @@ p {
     right: -1px;
     background: transparent url(../images/corner.svg) no-repeat;
   }
+
+  /* HOME */
+  .jl-display-text {
+    margin-top: 10%;
+  }
+
+  #jl-home-presentation {
+    background-image: url(../images/joao-lemon-designer-home.png);
+    background-repeat: no-repeat;
+    background-position: 60% bottom;
+    position: relative;
+  }
+
+  .jl-scroll-down {
+    width: 70px;
+    height: 105px;
+    border-radius: 35px 35px 0 0;
+    display: block;
+    background-color: #2ccb69;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .jl-arrow-down {
+    width: 100%;
+    height: 75px;
+    display: table;
+    margin-top: 30px;
+    position: relative;
+    animation: lineDown 3s infinite ease-out;
+    transform-origin: top center;
+  }
+
+  .jl-arrow-down img {
+    width: 16px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 15px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+
+  .jl-arrow-down:before {
+    content: "";
+    width: 2px;
+    height: 45px;
+    display: block;
+    background-color: #000;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: lineDown 3s infinite ease-out;
+    transform-origin: top center;
+  }
 }
 @media screen and (min-width: 768px) {
 }
@@ -234,11 +324,58 @@ p {
 @media screen and (min-width: 1600px) {
 }
 
+/* BOTÕES */
+
+.jl-btn {
+  display: table;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  border: none;
+  transition: all 0.2s ease-out;
+}
+
+.jl-btn-medium {
+  height: 38px;
+  padding: 0 27px;
+  border-radius: 19px;
+  font-size: 14px;
+}
+
+.jl-btn-large{
+  height: 45px;
+  padding: 0 35px;
+  border-radius: 24px;
+  font-size: 16px;
+}
+
+.jl-btn-green {
+  background-color: #2ccb69;
+  color: #1C1C1C;
+}
+.jl-btn-green:hover {
+  background-color: rgb(6, 135, 55);
+  color: #fff;
+}
+
+.jl-btn-dark {
+  background-color: #151515;
+  color: #2ccb69;
+}
+.jl-btn-dark:hover {
+  background-color: #2f2f2f;
+  color: #fff;
+}
+
 /* CLASSES UTILITARIAS */
 
 .jl-title {
   font-family: "Abril Fatface", serif;
   font-weight: normal;
+}
+
+.jl-title-big {
+  font-size: 7.5rem;
 }
 
 .jl-text-green {
@@ -301,6 +438,14 @@ p {
 }
 .jl-pad-bottom-15 {
   padding-bottom: 15px;
+}
+
+.jl-full-height {
+  height: 100vh;
+}
+
+.jl-first-section {
+  height: calc(100vh - 30px);
 }
 
 /* CLASSES COMPORTAMENTO */
