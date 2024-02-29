@@ -6,7 +6,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-p {
+p,
+label {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -42,6 +43,12 @@ p {
 @keyframes arrowDown {
 }
 
+@keyframes slideTopIn {
+  to {
+    top: 15%;
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 576px) {
   .jl-page-wrapper {
     width: 100%;
@@ -102,6 +109,75 @@ p {
 
   .jl-preloader-inner {
     margin-top: -60px;
+  }
+  /* OVERLAY */
+  .jl-overlay {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(44, 203, 105, 0.95);
+  }
+  /* MODAL */
+  .jl-modal {
+    width: 800px;
+    display: none;
+    padding: 30px;
+    border-radius: 0 30px 30px 30px;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1200;
+    opacity: 0;
+  }
+
+  .jl-modal-header,
+  .jl-modal-body,
+  .jl-form {
+    width: 100%;
+    display: table;
+    position: relative;
+  }
+
+  .jl-close-modal {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    color: #2ccb69;
+    text-align: center;
+    line-height: center;
+    cursor: pointer;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border: none;
+    background-color: #2f2f2f;
+  }
+
+  .jl-form label {
+    margin-bottom: 15px;
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  .jl-field,
+  .jl-textarea {
+    width: 100%;
+    background-color: #2f2f2f;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    text-indent: 15px;
+  }
+
+  .jl-field {
+    height: 45px;
   }
 
   .jl-topbar {
@@ -335,6 +411,18 @@ p {
   transition: all 0.2s ease-out;
 }
 
+.jl-btn-block {
+  display: block;
+  width: 100%;
+}
+
+.jl-btn-small {
+  height: 28px;
+  padding: 0 20px;
+  border-radius: 14px;
+  font-size: 11px;
+}
+
 .jl-btn-medium {
   height: 38px;
   padding: 0 27px;
@@ -342,7 +430,7 @@ p {
   font-size: 14px;
 }
 
-.jl-btn-large{
+.jl-btn-large {
   height: 45px;
   padding: 0 35px;
   border-radius: 24px;
@@ -351,11 +439,12 @@ p {
 
 .jl-btn-green {
   background-color: #2ccb69;
-  color: #1C1C1C;
+  color: #1c1c1c;
 }
 .jl-btn-green:hover {
   background-color: rgb(6, 135, 55);
   color: #fff;
+  transform: scale(1.1);
 }
 
 .jl-btn-dark {
@@ -365,6 +454,7 @@ p {
 .jl-btn-dark:hover {
   background-color: #2f2f2f;
   color: #fff;
+  transform: scale(1.1);
 }
 
 /* CLASSES UTILITARIAS */
@@ -452,6 +542,10 @@ p {
 
 .jl-is-open {
   display: block;
+}
+
+.jl-slide-top-in {
+  animation: slideTopIn 0.6s forwards ease-out;
 }
 
 .jl-change-icon {
