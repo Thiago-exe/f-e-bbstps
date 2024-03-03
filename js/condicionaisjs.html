@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form-field {
+        display: flex;
+        width: 80%;
+        background-color: #d8d8d8;
+        padding: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: center;
+        align-content: center;
+      }
+      .validate {
+        margin-top: 12px;
+      }
+      #email {
+        width: 90%;
+      }
+      label {
+        width: 100%;
+        margin-bottom: -10px;
+      }
+      .sucesso{
+        color: green;
+      }
+      .erro{
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-field" id="form-field-email">
+      <label for="nome">Nome</label>
+      <input type="nome" id="nome" placeholder="Seu nome" />
+      <span></span>
+    </div>
+    <div class="form-field" id="form-field-nome">
+      <label for="email">Email</label>
+      <span></span>
+      <input type="email" id="email" placeholder="Seu email" />
+    </div>
+
+    <button onclick="validaEmail()" class="validate">Validar Email</button>
+    <script>
+      const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+      function validaEmail() {
+        var emailStr = document.getElementById("email");
+        var str = emailStr.value;
+        if (regex.test(str)) {
+          console.log("deu certo!");
+        }
+        var nome = document.getElementById("nome");
+        nome.value = "Thiago Santos Brito";
+        var spans = document.getElementById('form-field-nome');
+        spans.querySelector('span').classList.add('sucesso');
+        spans.querySelector('span').innerText="Deu tudo certo!";
+      }
+    </script>
+  </body>
+</html>

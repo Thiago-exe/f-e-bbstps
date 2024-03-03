@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funções em JS</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 120px;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+      label {
+        width: 100%;
+      }
+      #text {
+        width: 70%;
+        margin: 12px 0;
+      }
+      button {
+        width: 73%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <label for="text">valores</label>
+    <input type="text" id="text" placeholder="valores a serem somados" />
+    <button id="facaalgo">Faça algo</button>
+    <script>
+      function myInfo(x, y) {
+        return x+y;
+      }
+
+      function inserir_text() {
+        var button = document.getElementById("facaalgo");
+        var caixa = document.querySelector(".box");
+        var input = document.getElementById('text');
+        button.addEventListener("click", function () {
+          caixa.innerHTML = "<strong>Mr. Meeseeks!</strong>";
+          //não funciona porque o text ele nao pega como vetor
+          caixa.innerHTML = myInfo(input.value[0],input.value[1]);
+        });
+      }
+      inserir_text();
+    </script>
+  </body>
+</html>

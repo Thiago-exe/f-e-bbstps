@@ -48,6 +48,6 @@ body {
 }
 
 .btn:hover{
-  animation: butaun 0.3s forwards;
+  animation: butaun 3s forwards;
   box-shadow: 8px 8px 0 #ff0099;
 }

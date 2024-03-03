@@ -15,7 +15,7 @@ Aprenda uma base sólida de HTML, CSS e JS criando um site do zero com foco nos 
 ## AULA 2
 
 1. Cite e descreva cada um dos estágios de um projeto front-end para website.
-
+    Design de interface que engloba grafismos, estrutura, paleta de cores, elementos de layout, componentes e usabilidade; HTML relacionado à semântica de elementos, marcação de blocos, marcação de textos e tags; CSS que define grids, cores, formata textos e blocos, componentiza e anima e por fim o JS que manipula elementos DOM, formata elementos, libraries e plugins formata dinâmicamente e programa eventos.  
 ## Aula 4
 
 1. Como é composta a estrutura de um documento HTML.

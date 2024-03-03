@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+        background-color: #d6d6d6;
+      }
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 200px;
+        background-color: #f8f8f8;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="box1" class="box">Sou uma caixa!</div>
+    <div class="box">Sou uma caixa!</div>
+    <div class="box">Sou uma caixa!</div>
+    <div class="box">Sou uma caixa!</div>
+    <div class="box">Sou uma caixa!</div>
+    <div class="box">Sou uma caixa!</div>
+    <div class="box">Sou uma caixa!</div>
+    <div class="box">Sou uma caixa!</div>
+    <div class="box">Sou uma caixa!</div>
+    <div class="box">Sou uma caixa!</div>
+    <script>
+        var myBoxes = document.querySelectorAll(".box");
+        var i;
+        for(i =0; i< myBoxes.length ; i++){
+        myBoxes[i].addEventListener('click', function(){
+            alert('Clicaram nessa caixa! Rum!');
+        });
+    }
+    window.addEventListener('scroll',function(){
+      console.log(pageYOffset);
+    });
+
+    </script>
+  </body>
+</html>
