@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: #DDDDDD;
+            padding: 40%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="debug">
+    </div>
+
+    <ul class="frutas" id="frutas">
+
+    </ul>
+    <script>
+        var listaFrutas = document.getElementById('frutas');
+        var debug = document.getElementById('debug');
+        var frutas = ["Laranja", "Kiwi", "Morango"];
+        var myList = [];
+
+        for (var i = 0; i<frutas.length ; i++){
+            myList.push('<li>'+frutas[i]+'</li>')
+        }
+        for (var i = 0; i<frutas.length ; i++){
+            debug.innerHTML = myList[i] + debug.innerHTML;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="my-buttons">
+      <button class="azul" onclick="facaAzul()">Azul</button>
+      <button class="vermelho" onclick="facaVermelho()">Vermelho</button>
+      <button class="azul" onclick="facaAzul()">Azul</button>
+      <button class="vermelho" onclick="facaVermelho()">Vermelho</button>
+      <button id="batata">Sexo</button>
+    </div>
+    <script>
+      var azul = document.querySelectorAll(".azul");
+      var vermelho = document.querySelectorAll(".vermelho");
+      console.log(azul);
+      var sexo = document.getElementById('batata');
+
+      function facaAzul() {
+        var i = 0;
+        for (i = 0; azul.length > i; i++) {
+          azul[i].style.color = "blue";
+          azul[i].style.height = "200px";
+        }
+        document.body.backgroundColor = '#D8D8D8';
+        for(i=0; i<vermelho.length; i++ ){
+            vermelho[i].style.display = 'none';
+        }
+        for(i=0; i<vermelho.length; i++ ){
+            vermelho[i].style.display = 'block';
+        }
+        sexo.style.width = '100%';
+    }
+      function facaVermelho() {
+        var i = 0;
+        for (i = 0; vermelho.length > i; i++) {
+          vermelho[i].style.color = "red";
+          vermelho[i].style.width = "100%";
+        }
+        document.body.style.backgroundColor = 'black';
+      }
+    </script>
+  </body>
+</html>
