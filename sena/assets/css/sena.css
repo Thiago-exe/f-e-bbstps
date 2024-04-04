@@ -2,17 +2,103 @@
 
 :root {
  --white: #F9F8FF;
+ --red: #90040A;
+ --grey: #BFBFBF;
+ --dark-grey: #3A484E;
+ --black:#050315;
+ --red-bright: #F9252E;
 }
 
 /* AJUSTANDO BARRA TOPO */
+#item-fourty a{
+  display: inline;
+}
 
+/* UTILS */
 body{
     margin:0;
     padding: 0;
 }
 
-#item-fourty a{
-  display: inline;
+main{
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+  background-color: var(--white);
+}
+
+p{
+  font-size: 1.6rem;
+
+}
+
+.sena-dark-grey{
+  color: var(--dark-grey);
+}
+
+.sena-black{
+  color: var(--black);
+}
+
+.sena-bright-red{
+  color: var(--red-bright);
+}
+
+/* COMPONENTS */
+
+.sena-vermais{
+  position: relative;
+}
+
+.sena-title{
+  font-family: 'Archivo', sans-serif;
+  font-size: 2.8rem;
+  border-bottom: 1px solid var(--grey);
+  color: var(--black);
+  position: relative;
+}
+
+.sena-title span{
+  border-bottom: 4px solid var(--red);
+}
+
+.sena-title-about{
+  font-family: 'Archivo', sans-serif;
+  font-size: 4.8rem;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.sena-title-about span{
+  border-bottom: 4px solid var(--red);
+}
+
+.sena-vermais a{
+  display: flex;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: var(--red);
+  gap: 6px;
+  position: absolute;
+  right: 0;
+  top: 6px;
+}
+
+/* SPACING */
+
+.sena-section-margins{
+  margin: 0 80px;
+}
+
+.sena-pad-right-0{
+  padding-right: 0;
+}
+
+.sena-mg-left-80{
+  margin-left: 80px;
 }
 
 /* HEADER */
@@ -48,10 +134,10 @@ body{
 
 .sena-header-tag p{
   font-family: 'Archivo', sans-serif;
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: bold;
   margin-bottom: 0px;
-  line-height: 40px;
+  line-height: 4rem;
 }
 
 .sena-header-tag span{
@@ -73,6 +159,7 @@ body{
     color: var(--white);
     font-family: 'Archivo', sans-serif;
     text-transform: uppercase;
+    font-size: 1.6rem;
 }
 
 .sena-navbar{
@@ -88,10 +175,58 @@ body{
 
 .sena-navbar a{
     font-family: 'Archivo', sans-serif;
-    font-size: 1rem;
-
+    font-size: 1.6rem;
+    border-right: 1px solid var(--white);
+    padding-right: 12px;
     text-decoration: none;
     color: var(--white);
+}
+
+/* FIM HEADER */
+
+/* HERO SECTION */
+
+.sena-hero-txt{
+  margin-left: 80px;
+  margin-right: 20px;
+}
+
+.sena-hero-txt h1{
+  font-family: 'Archivo', sans-serif;
+  font-size: 4.8rem;
+}
+
+.sena-hero-txt p{
+  font-size: 1.6rem;
+ color: #3A484E;
+}
+
+.sena-hero-img{
+  display: inline-block;
+  width: 100%;
+  background-image: url(../images/image\ 84.jpg);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 100%;
+  border-radius: 0  0  0 80px;
+  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+  border-left: 2px solid black;
+}
+
+
+/* SEÇÃO NOTICIAS */
+
+.sena-noticias{
+  padding: 60px 0px;
+}
+
+/* SEÇÃO SOBRE */
+
+.sena-sobre-topics{
+  font-family: 'Archivo', sans-serif;
+  font-size: 4.2rem;
 }
 
 /* MEDIA SIZES */
