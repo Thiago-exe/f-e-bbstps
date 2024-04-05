@@ -18,20 +18,26 @@
 body{
     margin:0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 main{
   padding: 0;
+  
 }
 
 html{
   font-size: 62.5%;
   background-color: var(--white);
+  
 }
 
 p{
   font-size: 1.6rem;
+}
 
+section{
+  padding: 80px 0;
 }
 
 .sena-dark-grey{
@@ -44,6 +50,22 @@ p{
 
 .sena-bright-red{
   color: var(--red-bright);
+}
+
+.sena-txt-font-secondary{
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+.sena-txt-bold{
+  font-weight: bold;
+}
+
+.sena-txt-small{
+  font-size: 1.6rem;
+}
+
+.sena-txt-big{
+  font-size: 4.8rem;
 }
 
 /* COMPONENTS */
@@ -66,9 +88,7 @@ p{
 
 .sena-title-about{
   font-family: 'Archivo', sans-serif;
-  font-size: 4.8rem;
   color: var(--black);
-  font-weight: bold;
 }
 
 .sena-title-about span{
@@ -117,7 +137,6 @@ p{
 }
 .sena-header-presentation {
   display: inline-block;
-  float: left;
   margin-left: 80px;
 }
 
@@ -186,6 +205,11 @@ p{
 
 /* HERO SECTION */
 
+.sena-hero{
+padding-top: 0;
+padding-bottom: 0;
+}
+
 .sena-hero-txt{
   margin-left: 80px;
   margin-right: 20px;
@@ -197,21 +221,25 @@ p{
 }
 
 .sena-hero-txt p{
+  font-family: 'Tenor Sans',sans-serif;
+  letter-spacing: 3px;
+  line-height: 20px;
   font-size: 1.6rem;
  color: #3A484E;
+ margin-top:12px;
 }
 
 .sena-hero-img{
   display: inline-block;
   width: 100%;
   background-image: url(../images/image\ 84.jpg);
-  height: 60vh;
+  height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: 100%;
   border-radius: 0  0  0 80px;
-  border-bottom: 2px solid black;
-  border-top: 1px solid black;
+  border-bottom: 3px solid black;
+  border-top: 1x solid black;
   border-left: 2px solid black;
 }
 
@@ -223,10 +251,101 @@ p{
 }
 
 /* SEÇÃO SOBRE */
+.sena-sobre{
+  display: table;
+  position: relative;
+}
+
+
+ .sena-sobre-grey-wrapper{
+  width: 100vw;
+  height: 648px;
+  background-color: #D9D9D9;
+  position: absolute;
+  z-index: 0;
+  bottom: -30px;
+  left: -80px;
+} 
+
+.sena-sobre-txt:first-of-type{
+  margin: 80px 0 80px 0;
+}
+.sena-sobre-txt:nth-of-type(2){
+  margin: 112px 0 80px 0;
+}
+.sena-sobre-txt:nth-of-type(3){
+  margin: 112px 0 164px 0;
+}
 
 .sena-sobre-topics{
   font-family: 'Archivo', sans-serif;
-  font-size: 4.2rem;
+  font-size: 4.8rem;
+  position: relative;
+  z-index: 1;
+}
+
+.sena-sobre-descricoes{
+  font-family: 'Tenor Sans', sans-serif;
+  font-weight: 1.6rem;
+  color: var(--black);
+  margin-top: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.sena-sobre-images{
+  display: table;
+  width: 100%;
+  position: relative;
+}
+
+.sena-sobre-images-focus{
+  position: relative;
+  z-index: 10;
+  border-radius: 20px;
+}
+
+.sena-sobre-images-blur-left{
+  z-index: 1;
+  position: absolute;
+  left: -32px;
+  bottom: -32px;
+  border-radius: 20px;
+}
+
+.sena-sobre-images-blur-right{
+  z-index: 1;
+  position: absolute;
+  left: 32px;
+  bottom: -32px;
+  border-radius: 20px;
+}
+
+/* GALERIA */
+
+.sena-galeria{
+  width: 100vw;
+  display:block;
+  
+  height: 500px;
+  margin: 0rem;
+  margin-left: 80px;
+}
+
+
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  user-select: none; /* -- Prevent image highlighting -- */
+}
+
+#image-track > .image {
+  width: 360px;
+  height: 420px;
+  object-fit: cover;
+  object-position: 100% center;
+  border-radius: 8px;
 }
 
 /* MEDIA SIZES */
@@ -256,7 +375,6 @@ p{
 }
 @media only screen and (min-width: 1366px) {
  
-}
 }
 @media only screen and (min-width: 1600px) {
  
