@@ -51,3 +51,26 @@ window.ontouchend = (e) => handleOnUp(e.touches[0]);
 window.onmousemove = (e) => handleOnMove(e);
 
 window.ontouchmove = (e) => handleOnMove(e.touches[0]);
+
+const slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
+
+function showSlide(index) {
+  slides.forEach((slide, i) => {
+    if (i === index) {
+      slide.classList.add('show');
+    } else {
+      slide.classList.remove('show');
+    }
+  });
+}
+
+const nextBtns = document.querySelectorAll('.nextBtn');
+nextBtns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  });
+});
+
+showSlide(currentSlide);
