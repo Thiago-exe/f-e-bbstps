@@ -45,6 +45,7 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Archivo', sans-serif;
 }
 
+/* CORES */
 .sena-dark-grey{
   color: var(--dark-grey);
 }
@@ -57,6 +58,7 @@ h1,h2,h3,h4,h5,h6{
   color: var(--red-bright);
 }
 
+/* FONTES */
 .sena-txt-font-secondary{
   font-family: 'Tenor Sans', sans-serif;
 }
@@ -69,8 +71,31 @@ h1,h2,h3,h4,h5,h6{
   font-size: 1.6rem;
 }
 
+.sena-txt-smd{
+  font-size: 2.8rem;
+}
+
+.sena-txt-md{
+  font-size: 3.2rem;
+}
+
 .sena-txt-big{
   font-size: 4.8rem;
+}
+
+/* ESPAÇAMENTO */
+.sena-mg-y-32{
+  margin: 32px 0;
+}
+
+.sena-mb-32{
+  margin-bottom: 32px;
+}
+
+/* ORDENAÇÃO */
+
+.sena-order-2{
+  order: 2;
 }
 
 /* COMPONENTS */
@@ -82,6 +107,16 @@ h1,h2,h3,h4,h5,h6{
   text-decoration: none;
   color: var(--red);
   gap: 6px;
+}
+
+.sena-btn{
+  border-radius: 0 80px 0 80px;
+  background-color: var(--red);
+  color: var(--white);
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
 }
 
 .sena-vermais{
@@ -128,6 +163,10 @@ h1,h2,h3,h4,h5,h6{
 
 .sena-mg-left-80{
   margin-left: 80px;
+}
+
+.sena-pd-right-5{
+  padding-right: 5px;
 }
 
 /* HEADER */
@@ -415,7 +454,81 @@ padding-bottom: 0;
 
 .sena-manutencao{
   background: url(/sena/assets/images/manu-background.jpg);
-  
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 864px;
+  width: 100%;
+  margin-left: 0;
+}
+
+.sena-manutencao > .sena-title{
+margin-left: 80px;
+}
+
+.sena-manu-box{
+  display: block;
+  width: 519px;
+  height: 531px;
+  border-radius: 20px;
+  background: rgba(5, 3, 21, 0.4);
+  margin: 200px auto 0 auto;
+  position: relative;
+  padding-top: 60px;
+  color: var(--white);
+}
+
+.sena-manu-box > img{
+  width: 240px;
+  height: 252px;
+position: absolute;
+top: -124px;
+right: 0;
+left: 0;
+margin: 0 auto;
+}
+
+.sena-manu-box-descricao{
+  width: 395px;
+  height: 320px;
+  background: rgba(5,3,21,0.5);
+  margin: 0 auto;
+  padding-top: 60px;
+  padding: 60px 24px 0 24px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.sena-manu-box-descricao > h3{
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.sena-manu-box-descricao > h4{
+  font-size: 1.8rem;
+  width: 80%;
+  margin: 0 auto 8px auto;
+}
+
+.sena-manu-box-descricao > p{
+  font-size: 1.6rem;
+  width: 100%;
+  text-align:left;
+}
+
+#manu-btn{
+  margin: 32px auto 0 auto;
+  display: flex;
+  width: 395px;
+  height: 72px;
+  background-color: #64CECF;
+  border-radius: 20px;
+  color: var(--black);
+  font-weight: bold;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }
 
 /* GALERIA */
@@ -423,7 +536,6 @@ padding-bottom: 0;
 .sena-galeria{
   width: 100vw;
   display:block;
-  
   height: 500px;
   margin: 0rem;
   margin-left: 80px;
@@ -445,10 +557,138 @@ padding-bottom: 0;
   border-radius: 8px;
 }
 
+/* CONTATO */
+
+.sena-contato{
+  margin-top:80px;
+}
+
+.sena-social-media{
+  gap: 24px;
+}
+
+#sena-btn-send{
+  width: 306px;
+  height: 74px;
+  margin: 8px auto;
+}
+
+.sena-form-label{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Archivo',sans-serif;
+  margin-bottom: 4px;
+  height: 40px;
+}
+
+.form-control{
+  font-size: 1.6rem !important;
+  font-family: 'Tenor Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 16px;
+  background-color: #D9D9D9;
+  color: var(--dark-grey);
+}
+
 /* MEDIA SIZES */
 
 
 @media only screen and (max-width: 576px){
+  .sena-section-margins{
+    margin: 0 8px;
+  }
+
+  .sena-tjpi-links ul a{
+    display: none;
+  }
+  .sena-header{
+    display: block;
+    padding: 0;
+  }
+
+  .sena-header-presentation{
+    margin-left: 0;
+  }
+
+  .sena-header-tag{
+    width: 69%;
+  }
+
+  .sena-navbar{
+    padding: 12px !important;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  
+  .sena-hero-txt{
+    margin: 30px 20px 0 30px;
+  }
+  
+
+  /* SOBRE */
+  .sena-sobre {
+    padding-bottom: 160px;
+  }
+
+  .sena-sobre-grey-wrapper {
+    width: 100vw;
+    height: 648px;
+    background-color: #D9D9D9;
+    position: absolute;
+    z-index: 0;
+    bottom: 855px;
+    left: -10px;
+  }
+
+  .sena-sobre-txt:first-of-type {
+    margin: 60px 0 40px 0;
+  }
+
+  .sena-sobre-txt:nth-of-type(2){
+    margin: 112px 0 40px 0;
+  }
+
+  .sena-sobre-txt:nth-of-type(3){
+    margin: 112px 0 40px 0;
+  }
+
+  #sena-sobre-btn {
+    left: -24px;
+  }
+
+  /* MANU */
+
+  .sena-manutencao {
+    margin-left: 0;
+    background-position-x: center;
+  }
+  
+  .sena-manutencao > .sena-title {
+    margin-left: 10px;
+  }
+
+  .sena-manu-box {
+    display: block;
+    width: 100%;
+    height: 531px;
+    border-radius: 20px;
+    background: rgba(5, 3, 21, 0.4);
+    margin: 160px auto 0 auto;
+    position: relative;
+    padding-top: 60px;
+    color: var(--white);
+  }
+
+  /* GALERIA */
+
+  .sena-galeria {
+    width: 100vw;
+    display: block;
+    height: 500px;
+    margin: 0rem;
+    margin-left: 10px;
+  }
 
 }
 
