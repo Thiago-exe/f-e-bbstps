@@ -99,9 +99,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* ORDENAÇÃO */
 
-.sena-order-2{
-  order: 2;
-}
+
 
 /* COMPONENTS */
 
@@ -305,7 +303,7 @@ padding-bottom: 0;
   display: table;
   width: 100%;
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 140px;
 }
 
  .sena-sobre-grey-wrapper{
@@ -368,25 +366,6 @@ padding-bottom: 0;
   left: 32px;
   bottom: -32px;
   border-radius: 20px;
-}
-
-#sena-sobre-btn{
-  width: 355px;
-  height: 67px;
-  border-radius: 0 80px 0 80px;
-  background-color: var(--red);
-  position: absolute;
-  z-index: 1;
-  left: -160px;
-  right: 0;
-  margin: 0 auto;
-  bottom: 20px;
-  color: var(--white);
-  font-family: 'Archivo', sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-  text-align: center;
-  line-height: 56px;
 }
 
 /* SLIDER OBRAS */
@@ -641,6 +620,11 @@ margin: 0 auto;
     padding-bottom: 160px;
   }
 
+  .sena-sobre-p{
+    max-width: 100vw;
+    padding-right: 4px;
+  }
+
   .sena-sobre-grey-wrapper {
     width: 100vw;
     height: 648px;
@@ -649,6 +633,10 @@ margin: 0 auto;
     z-index: 0;
     bottom: 926px;
     left: -10px;
+  }
+
+  .sena-order-2{
+    order: 2;
   }
 
   .sena-sobre-txt:first-of-type {
@@ -663,8 +651,26 @@ margin: 0 auto;
     margin: 112px 0 40px 0;
   }
 
+  .sena-sobre-txt{
+    max-width: 100%;
+    width: 100vw;
+  }
+
   #sena-sobre-btn {
-    left: -24px;
+    width: 355px;
+    height: 67px;
+    border-radius: 0 80px 0 80px;
+    background-color: var(--red);
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    color: var(--white);
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    line-height: 56px;
+    margin: 0 auto;
   }
 
   /* MANU */
@@ -690,6 +696,10 @@ margin: 0 auto;
     color: var(--white);
   }
 
+  #manu-btn{
+    width: 100%;
+  }
+
   /* GALERIA */
 
   .sena-galeria {
@@ -700,15 +710,111 @@ margin: 0 auto;
     margin-left: 10px;
   }
 
+  /* CONTATO */
+
+  .sena-contato{
+    margin-top: 80px;
+  }
+
 }
 
 @media only screen and (min-width: 576px){
-
+  #sena-sobre-btn {
+    left: 0;
+    right: 0;
+  }
+  #manu-btn {
+    width: 68%;
+  }
 }
 
 /* Estilos para telas médias (md) e maiores */
 @media only screen and (min-width: 768px) {
+  .sena-order-2{
+    order: 2;
+  }
 
+  .sena-section-margins {
+    margin: 0 20px;
+  }
+
+  .sena-galeria {
+    width: 100vw;
+    display: block;
+    height: 500px;
+    margin-left: 20px;
+  }
+
+  .sena-contato {
+    margin-top: 80px;
+  }
+
+  sena-manutencao {
+    background: url(/sena/assets/images/manu-background.jpg);
+      background-repeat: repeat;
+      background-size: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 864px;
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .sena-sobre-grey-wrapper {
+    width: 100vw;
+    height: 648px;
+    background-color: #D9D9D9;
+    position: absolute;
+    z-index: 0;
+    bottom: -30px;
+    left: -20px;
+  }
+  #sena-sobre-btn {
+    width: 355px;
+    height: 67px;
+    border-radius: 0 80px 0 80px;
+    background-color: var(--red);
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    right: 0;
+    margin: 0 auto;
+    bottom: 20px;
+    color: var(--white);
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    line-height: 56px;
+  }
+
+  .sena-sobre-txt{
+    width: 98vw;
+  }
+
+  .sena-navbar {
+    display: flex;
+    gap: 20px;
+    padding: 0px 100px !important;
+    gap: 20px;
+    background-color: #90040A;
+    align-items: center;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .sena-hero-txt {
+    margin-left: 20px;
+  }
+
+  #image-track {
+    gap: 2vmin;
+  }
+
+  .sena-sobre-p{
+    width: 97vw;
+  }
 }
 
 /* Estilos para telas grandes (lg) e maiores */
@@ -718,9 +824,28 @@ margin: 0 auto;
 
 /* Estilos para telas extra grandes (xl) e maiores */
 @media only screen and (min-width: 1200px) {
+  
  
 }
 @media only screen and (min-width: 1366px) {
+  #sena-sobre-btn {
+    width: 355px;
+    height: 67px;
+    border-radius: 0 80px 0 80px;
+    background-color: var(--red);
+    position: absolute;
+    z-index: 1;
+    left: -160px;
+    right: 0;
+    margin: 0 auto;
+    bottom: 20px;
+    color: var(--white);
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    line-height: 56px;
+  }
  
 }
 @media only screen and (min-width: 1600px) {
