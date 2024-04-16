@@ -97,6 +97,8 @@ h1,h2,h3,h4,h5,h6{
   margin-bottom: 32px;
 }
 
+
+
 /* ORDENAÇÃO */
 
 
@@ -252,6 +254,10 @@ h1,h2,h3,h4,h5,h6{
     color: var(--white);
 }
 
+.sena-navbar a:hover {
+  color: var(--black); /* Cor quando o mouse está sobre os links */
+}
+
 /* HERO SECTION */
 
 .sena-hero{
@@ -288,7 +294,7 @@ padding-bottom: 0;
   background-position-x: 100%;
   border-radius: 0  0  0 80px;
   border-bottom: 3px solid black;
-  border-top: 1x solid black;
+  border-top: 2x solid black;
   border-left: 2px solid black;
 }
 
@@ -330,6 +336,7 @@ padding-bottom: 0;
   font-size: 4.8rem;
   position: relative;
   z-index: 1;
+  font-weight: bold;
 }
 
 .sena-sobre-descricoes{
@@ -730,12 +737,33 @@ margin: 0 auto;
 
 /* Estilos para telas médias (md) e maiores */
 @media only screen and (min-width: 768px) {
+
+  .sena-tjpi-links{
+    margin-right: 20px;
+  }
+
+  .sena-tjpi-links ul a {
+    font-size: 1.2rem;
+  }
+
+  .sena-header-presentation {
+    margin-left: 20px;
+  }
+
+  .sena-header-tag {
+    width: 60%;
+  }
+
   .sena-order-2{
     order: 2;
   }
 
   .sena-section-margins {
     margin: 0 20px;
+  }
+
+  .sena-sobre-images{
+    margin: 0 auto;
   }
 
   .sena-galeria {
@@ -762,13 +790,14 @@ margin: 0 auto;
 
   .sena-sobre-grey-wrapper {
     width: 100vw;
-    height: 648px;
+    height: 1495px;
     background-color: #D9D9D9;
     position: absolute;
     z-index: 0;
     bottom: -30px;
     left: -20px;
   }
+
   #sena-sobre-btn {
     width: 355px;
     height: 67px;
@@ -794,12 +823,10 @@ margin: 0 auto;
 
   .sena-navbar {
     display: flex;
-    gap: 20px;
-    padding: 0px 100px !important;
-    gap: 20px;
+    gap: 12px;
+    padding: 8px 40px !important;
     background-color: #90040A;
     align-items: center;
-    text-wrap: wrap;
     flex-wrap: wrap;
     height: auto;
   }
@@ -819,13 +846,46 @@ margin: 0 auto;
 
 /* Estilos para telas grandes (lg) e maiores */
 @media only screen and (min-width: 992px) {
+  .sena-sobre-images{
+    margin: 0;
+  }
 
+  .sena-sobre-grey-wrapper {
+    width: 100vw;
+    height: 800px;
+    background-color: #D9D9D9;
+    position: absolute;
+    z-index: 0;
+    bottom: -30px;
+    left: -20px;
+  }
+
+  .sena-tjpi-links ul a {
+    font-size: 1.6rem;
+  }
+
+  .sena-sobre-p {
+    width: 45vw;
+  }
+
+  .sena-order-2{
+    order: 0;
+  }
+
+  .sena-sobre-txt {
+    width: 40vw;
+  }
+
+  .sena-sobre-grey-wrapper {
+    height: 741px;
+  }
 }
 
 /* Estilos para telas extra grandes (xl) e maiores */
 @media only screen and (min-width: 1200px) {
-  
- 
+  .sena-sobre-grey-wrapper {
+    height: 718px;
+  }
 }
 @media only screen and (min-width: 1366px) {
   #sena-sobre-btn {
@@ -845,6 +905,13 @@ margin: 0 auto;
     font-size: 24px;
     text-align: center;
     line-height: 56px;
+  }
+  .sena-sobre-grey-wrapper {
+    height: 700px;
+  }
+
+  .sena-ml-20{
+    margin-left: 20px;
   }
  
 }
