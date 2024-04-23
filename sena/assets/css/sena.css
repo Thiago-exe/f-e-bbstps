@@ -50,6 +50,30 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Archivo', sans-serif;
 }
 
+.sena-manu-sticky{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 40px;
+  bottom: 24px;
+  z-index: 9999;
+}
+
+.sena-manu-sticky img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sena-wrapper-fullimgbackground{
+  width: 100%;
+  height: 400px;
+  background: url(/sena/assets/images/sobre-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* CORES */
 .sena-dark-grey{
   color: var(--dark-grey);
