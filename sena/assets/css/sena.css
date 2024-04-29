@@ -43,7 +43,8 @@ p{
 }
 
 section{
-  padding: 40px 0;
+  padding: 0;
+  margin: 40px 0;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -124,10 +125,6 @@ h1,h2,h3,h4,h5,h6{
 
 .sena-mb-32{
   margin-bottom: 32px;
-}
-
-.offset-md-end-1 {
-  margin-right: calc((100% / 12) * 1) !important;
 }
 
 .sena-mt-80{
@@ -630,8 +627,12 @@ margin: 0 auto;
   color: var(--dark-grey);
 }
 
-/* MEDIA SIZES */
+.sena-selecao-obra{
+  margin-top: 8px;
+  gap: 12px;
+}
 
+/* MEDIA SIZES */
 
 @media only screen and (max-width: 576px){
   .sena-section-margins{
@@ -809,6 +810,13 @@ margin: 0 auto;
 
 /* Estilos para telas médias (md) e maiores */
 @media only screen and (min-width: 768px) {
+  .sena-selecao-obra{
+    margin-top: 0px;
+    gap: 0px;
+  }
+  .sena-selecao-obra > img{
+    margin-bottom: 12px;
+  }
 
   .sena-tjpi-links{
     margin-right: 20px;
