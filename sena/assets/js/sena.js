@@ -1,4 +1,5 @@
 console.log("Carreguei!");
+//GALERIA
 const track = document.getElementById("image-track");
 
 const handleOnDown = (e) => (track.dataset.mouseDownAt = e.clientX);
@@ -38,8 +39,6 @@ const handleOnMove = (e) => {
   }
 };
 
-/* -- Had to add extra lines for touch events -- */
-
 window.onmousedown = (e) => handleOnDown(e);
 
 window.ontouchstart = (e) => handleOnDown(e.touches[0]);
@@ -52,6 +51,8 @@ window.onmousemove = (e) => handleOnMove(e);
 
 window.ontouchmove = (e) => handleOnMove(e.touches[0]);
 
+
+//SLIDE OBRAS
 const slides = document.querySelectorAll('.slide');
 let currentSlide = 0;
 
@@ -72,5 +73,32 @@ nextBtns.forEach((btn) => {
     showSlide(currentSlide);
   });
 });
-
 showSlide(currentSlide);
+
+//OBRAS SELEÇÃO
+const palacio_novo = document.getElementById("conteudo-palacionovo");
+const conteudo_palacio = document.getElementById("conteudo-palacio");
+
+// Obter referências para as imagens
+const imgPalacioNovo = document.querySelector('img[data-target="conteudo_palacio_novo"]');
+const imgPalacio = document.querySelector('img[data-target="conteudo_palacio"]');
+
+// Adicionar event listeners para cliques nas imagens
+imgPalacioNovo.addEventListener('click', function() {
+    conteudo_palacio.classList.add('hidden');
+    palacio_novo.classList.remove('hidden');
+    imgPalacioNovo.classList.add('selected');
+    imgPalacio.classList.remove('selected');
+    document.getElementById('slide2').classList.add('hidden');
+    document.getElementById('slide1').classList.remove('hidden');
+});
+
+imgPalacio.addEventListener('click', function() {
+    palacio_novo.classList.add('hidden');
+    conteudo_palacio.classList.remove('hidden');
+    imgPalacioNovo.classList.remove('selected');
+    imgPalacio.classList.add('selected');
+    document.getElementById('slide2').classList.remove('hidden');
+    document.getElementById('slide1').classList.add('hidden');
+});
+
