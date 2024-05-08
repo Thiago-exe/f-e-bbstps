@@ -245,17 +245,12 @@ h1,h2,h3,h4,h5,h6{
   border-bottom: 2px solid black;
 }
 .sena-header-presentation {
-  display: inline-block;
-  margin-left: 80px;
-}
-
-.sena-header-presentation img{
-    margin-bottom: 80px;
+  display: flex;
 }
 
 .sena-header-tag{
     display: inline-block;
-    width: 50%;
+    width: 100%;
     padding: 12px;
     color: var(--white);
 }
@@ -275,7 +270,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .sena-tjpi-links{
-    margin-right: 80px;
+  display: none;
 }
 
 .sena-tjpi-links ul{
@@ -294,7 +289,7 @@ h1,h2,h3,h4,h5,h6{
 .sena-navbar{
     display: flex;
     gap: 20px;
-    height: 54px;
+    min-height: 54px;
     width: 100%;
     padding: 0px 100px !important;
     gap: 20px;
@@ -680,9 +675,6 @@ margin: 0 auto;
 
   .sena-sobre-grey-wrapper {
     height: 648px;
-    background-color: #D9D9D9;
-    position: absolute;
-    z-index: 0;
   }
 
   .sena-order-2{
@@ -811,18 +803,6 @@ margin: 0 auto;
     margin-bottom: 12px;
   }
 
-  .sena-tjpi-links{
-    margin-right: 20px;
-  }
-
-  .sena-tjpi-links ul a {
-    font-size: 1.2rem;
-  }
-
-  .sena-header-presentation {
-    margin-left: 20px;
-  }
-
   .sena-header-tag {
     width: 60%;
   }
@@ -831,6 +811,9 @@ margin: 0 auto;
     order: 2;
   }
 
+  .sena-tjpi-links{
+    display: block;
+  }
 
   .sena-sobre-images{
     margin: 0 auto;
@@ -860,9 +843,6 @@ margin: 0 auto;
 
   .sena-sobre-grey-wrapper {
     height: 1495px;
-    background-color: #D9D9D9;
-    position: absolute;
-    z-index: 0;
   }
 
   #sena-sobre-btn {
@@ -909,13 +889,6 @@ margin: 0 auto;
 
   .sena-sobre-grey-wrapper {
     height: 800px;
-    background-color: #D9D9D9;
-    position: absolute;
-    z-index: 0;
-  }
-
-  .sena-tjpi-links ul a {
-    font-size: 1.6rem;
   }
 
   .sena-order-2{
@@ -954,7 +927,6 @@ margin: 0 auto;
   }
   .sena-sobre-grey-wrapper {
     width: 200vw;
-    margin-left: -20rem;
     height: 700px;
   }
 

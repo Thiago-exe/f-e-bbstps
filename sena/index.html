@@ -21,42 +21,81 @@
       </div>
       <header>
         <div class="container-fluid sena-header">
-          <div class="sena-header-presentation">
-            <a href="/portaltjpi/sena/"
-              ><img src="assets/images/logo-sena.png"
-            /></a>
-            <div class="sena-header-tag">
-              <p>SENA</p>
-              <span>Superintendência de Engenharia e Arquitetura do TJPI</span>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-10 col-md-6">
+                <div class="sena-header-presentation">
+                  <a href="/portaltjpi/sena/" class="navbar-brand"
+                    ><img src="assets/images/logo-sena.png"
+                  /></a>
+                  <div class="sena-header-tag">
+                    <p>SENA</p>
+                    <span
+                      >Superintendência de Engenharia e Arquitetura do
+                      TJPI</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                  <h4 class="text-white">Collapsed content</h4>
+                  <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+              </div> -->
+              <div class="col-sm-0 col-md-6">
+                <!-- <div class="pos-f-t">
+                  <nav class="navbar">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  </nav>
+                </div> -->
+                <div class="sena-tjpi-links">
+                  <ul>
+                    <li>
+                      <a href="/portaltjpi/ouvidoria/" target="_blank">
+                        Ouvidoria
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/transparencia/diarios/" target="_blank"
+                        >Diário da Justiça</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/portaltjpi/"> Tribunal de Justiça do Piauí </a>
+                    </li>
+                    <li>
+                      <a href="/portaltjpi/corregedoria/">
+                        Corregedoria Geral da Justiça
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="sena-tjpi-links">
-            <ul>
-              <li>
-                <a href="/portaltjpi/ouvidoria/" target="_blank"> Ouvidoria </a>
-              </li>
-              <li>
-                <a href="/transparencia/diarios/" target="_blank"
-                  >Diário da Justiça</a
-                >
-              </li>
-              <li><a href="/portaltjpi/"> Tribunal de Justiça do Piauí </a></li>
-              <li>
-                <a href="/portaltjpi/corregedoria/">
-                  Corregedoria Geral da Justiça
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
-        <nav class="sena-navbar container-fluid">
-          <a href="/sena/sobre-sena.html">Sobre a SENA</a>
-          <a href="#">Notícias</a>
-          <a href="/sena/sena-obras.html">Obras e Reformas</a>
-          <a href="https://www.tjpi.jus.br/manu/">MANU - Manutenção</a>
-          <a href="#">Documentos</a>
-          <a href="#">Galeria de Fotos</a>
-        </nav>
+
+        <div class="sena-navbar">
+          <nav class="container nav">
+              <a class="nav-link" href="/sena/sobre-sena.html">Sobre a SENA</a>
+              <a class="nav-link" href="#">Notícias</a>
+              <a class="nav-link" href="/sena/sena-obras.html">Obras e Reformas</a>
+              <a class="nav-link" href="https://www.tjpi.jus.br/manu/">MANU - Manutenção</a>
+              <a class="nav-link" href="#">Documentos</a>
+          </nav>
+        </div>
+        <!-- <nav class="sena-navbar container-fluid">
+          <div class="container">
+            <a href="/sena/sobre-sena.html">Sobre a SENA</a>
+            <a href="#">Notícias</a>
+            <a href="/sena/sena-obras.html">Obras e Reformas</a>
+            <a href="https://www.tjpi.jus.br/manu/">MANU - Manutenção</a>
+            <a href="#">Documentos</a>
+          </div>
+        </nav> -->
       </header>
       <main>
         <div class="sena-hero">
@@ -70,9 +109,9 @@
                       <span class="sena-bright-red">SENA</span>
                     </h1>
                     <p class="sena-dark-grey">
-                      A Superintendência de Engenharia e Arquitetura - SENA esculpe
-                      o amanhã da justiça com maestria, forjando o futuro por meio
-                      da excelência na construção e design
+                      A Superintendência de Engenharia e Arquitetura - SENA
+                      esculpe o amanhã da justiça com maestria, forjando o
+                      futuro por meio da excelência na construção e design
                     </p>
                   </div>
                 </div>
@@ -215,7 +254,6 @@
           <div class="row sena-mb-100">
             <div class="col-lg-5">
               <div class="col-lg-10 offset-lg-2">
-        
                 <div class="sena-sobre-txt">
                   <h3 class="sena-sobre-topics">
                     <span class="sena-bright-red"
@@ -225,8 +263,8 @@
                   </h3>
                   <p class="sena-sobre-descricoes sena-pd-right-5">
                     Incorporamos práticas inovadoras e sustentáveis em
-                    <span class="sena-bright-red">cada projeto</span>, liderando o
-                    caminho para um futuro
+                    <span class="sena-bright-red">cada projeto</span>, liderando
+                    o caminho para um futuro
                     <span class="sena-bright-red">mais ecológico</span>.
                   </p>
                 </div>
@@ -253,7 +291,7 @@
             name=""
             id="sena-sobre-btn"
             class="btn btn-primary sena-btn"
-            href="#"
+            href="/sena/sobre-sena.html"
             role="button"
             >Saiba mais sobre a SENA</a
           >
@@ -297,7 +335,7 @@
             <div class="slide" id="slide2">
               <div class="sena-slide-img">
                 <img
-                  src="../sena/assets/images/senaslider2.jpg"
+                  src="../sena/assets/images/senaslider2.svg"
                   alt=""
                   class="sena-obras-slider img-fluid"
                 />
@@ -316,14 +354,14 @@
                     históricas, explore salões que testemunharam a evolução da
                     justiça.
                   </p>
-                  <div class="col-lg-3 offset-lg-3">
-                    <a href="#" class="vermais-btn vermais-btn-obras"
-                      ><img
-                        src="/sena/assets/images/Icone_noticias.svg"
-                        alt=""
-                      />Ver mais obras</a
-                    >
-                  </div>
+                </div>
+                <div class="col-lg-3 offset-lg-3">
+                  <a href="#" class="vermais-btn vermais-btn-obras"
+                    ><img
+                      src="/sena/assets/images/Icone_noticias.svg"
+                      alt=""
+                    />Ver mais obras</a
+                  >
                 </div>
               </div>
             </div>
@@ -545,6 +583,16 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
     <script src="../sena/assets/js/sena.js"></script>
