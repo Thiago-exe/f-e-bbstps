@@ -25,11 +25,11 @@
             <div class="row">
               <div class="col-sm-10 col-md-6">
                 <div class="sena-header-presentation">
-                  <a href="/portaltjpi/sena/" class="navbar-brand"
+                  <a href="/sena/index.html" class="navbar-brand"
                     ><img src="assets/images/logo-sena.png"
                   /></a>
                   <div class="sena-header-tag">
-                    <p>SENA</p>
+                    <p class="mb-0">SENA</p>
                     <span
                       >Superintendência de Engenharia e Arquitetura do
                       TJPI</span
@@ -43,7 +43,7 @@
                   <span class="text-muted">Toggleable via the navbar brand.</span>
                 </div>
               </div> -->
-              <div class="col-sm-0 col-md-6">
+              <div class="col-sm-1 col-md-6">
                 <!-- <div class="pos-f-t">
                   <nav class="navbar">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,16 +77,35 @@
             </div>
           </div>
         </div>
-
+        <input type="checkbox" id="nav-control" class="nav-control" />
+          <label for="nav-control" class="toggle-button">
+            <div class="wolverine">
+              <div class="claws"></div>
+              <span>menu</span>
+            </div>
+          </label>
+        <nav class="navigation">
+          <h1><a href="#">Sobre a SENA</a></h1>
+          <h1><a href="#">Notícias</a></h1>
+          <h1><a href="#">Obras e Reformas</a></h1>
+          <h1><a href="#">MANU - Manutenção</a></h1>
+          <h1><a href="#">Documentos</a></h1>
+        </nav>
         <div class="sena-navbar">
-          <nav class="container nav">
-              <a class="nav-link" href="/sena/sobre-sena.html">Sobre a SENA</a>
-              <a class="nav-link" href="#">Notícias</a>
-              <a class="nav-link" href="/sena/sena-obras.html">Obras e Reformas</a>
-              <a class="nav-link" href="https://www.tjpi.jus.br/manu/">MANU - Manutenção</a>
-              <a class="nav-link" href="#">Documentos</a>
+          
+          <nav class="container nav menu-text">
+            <a class="nav-link" href="/sena/sobre-sena.html">Sobre a SENA</a>
+            <a class="nav-link" href="/sena/sena-noticias.html">Notícias</a>
+            <a class="nav-link" href="/sena/sena-obras.html"
+              >Obras e Reformas</a
+            >
+            <a class="nav-link" href="https://www.tjpi.jus.br/manu/"
+              >MANU - Manutenção</a
+            >
+            <a class="nav-link" href="#">Documentos</a>
           </nav>
         </div>
+        
         <!-- <nav class="sena-navbar container-fluid">
           <div class="container">
             <a href="/sena/sobre-sena.html">Sobre a SENA</a>

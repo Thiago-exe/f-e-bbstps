@@ -16,44 +16,100 @@
     <div class="sena-mobile-wrapper">
       <header>
         <div class="container-fluid sena-header">
-          <div class="sena-header-presentation">
-            <a href="/portaltjpi/sena/"
-              ><img src="assets/images/logo-sena.png"
-            /></a>
-            <div class="sena-header-tag">
-              <p>SENA</p>
-              <span>Superintendência de Engenharia e Arquitetura do TJPI</span>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-10 col-md-6">
+                <div class="sena-header-presentation">
+                  <a href="/sena/index.html" class="navbar-brand"
+                    ><img src="assets/images/logo-sena.png"
+                  /></a>
+                  <div class="sena-header-tag">
+                    <p>SENA</p>
+                    <span
+                      >Superintendência de Engenharia e Arquitetura do
+                      TJPI</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                  <h4 class="text-white">Collapsed content</h4>
+                  <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+              </div> -->
+              <div class="col-sm-1 col-md-6">
+                <!-- <div class="pos-f-t">
+                  <nav class="navbar">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  </nav>
+                </div> -->
+                <div class="sena-tjpi-links">
+                  <ul>
+                    <li>
+                      <a href="/portaltjpi/ouvidoria/" target="_blank">
+                        Ouvidoria
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/transparencia/diarios/" target="_blank"
+                        >Diário da Justiça</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/portaltjpi/"> Tribunal de Justiça do Piauí </a>
+                    </li>
+                    <li>
+                      <a href="/portaltjpi/corregedoria/">
+                        Corregedoria Geral da Justiça
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="sena-tjpi-links">
-            <ul>
-              <li>
-                <a href="/portaltjpi/ouvidoria/" target="_blank"> Ouvidoria </a>
-              </li>
-              <li>
-                <a href="/transparencia/diarios/" target="_blank"
-                  >Diário da Justiça</a
-                >
-              </li>
-              <li><a href="/portaltjpi/"> Tribunal de Justiça do Piauí </a></li>
-              <li>
-                <a href="/portaltjpi/corregedoria/">
-                  Corregedoria Geral da Justiça
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
-        <nav class="sena-navbar container-fluid">
-          <div class="">
+        <input type="checkbox" id="nav-control" class="nav-control" />
+          <label for="nav-control" class="toggle-button">
+            <div class="wolverine">
+              <div class="claws"></div>
+              <span>menu</span>
+            </div>
+          </label>
+        <nav class="navigation">
+          <h1><a href="#">Sobre a SENA</a></h1>
+          <h1><a href="#">Notícias</a></h1>
+          <h1><a href="#">Obras e Reformas</a></h1>
+          <h1><a href="#">MANU - Manutenção</a></h1>
+          <h1><a href="#">Documentos</a></h1>
+        </nav>
+        <div class="sena-navbar">
+          
+          <nav class="container nav menu-text">
+            <a class="nav-link" href="/sena/sobre-sena.html">Sobre a SENA</a>
+            <a class="nav-link" href="#">Notícias</a>
+            <a class="nav-link" href="/sena/sena-obras.html"
+              >Obras e Reformas</a
+            >
+            <a class="nav-link" href="https://www.tjpi.jus.br/manu/"
+              >MANU - Manutenção</a
+            >
+            <a class="nav-link" href="#">Documentos</a>
+          </nav>
+        </div>
+        
+        <!-- <nav class="sena-navbar container-fluid">
+          <div class="container">
             <a href="/sena/sobre-sena.html">Sobre a SENA</a>
             <a href="#">Notícias</a>
             <a href="/sena/sena-obras.html">Obras e Reformas</a>
             <a href="https://www.tjpi.jus.br/manu/">MANU - Manutenção</a>
             <a href="#">Documentos</a>
-            <a href="#">Galeria de Fotos</a>
           </div>
-        </nav>
+        </nav> -->
       </header>
       <nav class="breadcrumb">
         <a class="breadcrumb-item" href="#"></a>
